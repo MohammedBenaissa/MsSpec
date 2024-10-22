@@ -1,0 +1,34 @@
+#! /bin/bash -f
+clear
+echo "                                             "
+echo "*********************************************"
+echo "*                                           *"
+echo "*                                           *"
+echo "*                                           *"
+echo "*             RUNNING OF PHAGEN             *"
+echo "*                                           *"
+echo "*                                           *"
+echo "*                                           *"
+echo "*********************************************"
+echo "                                             "
+echo "                                             "
+#
+#                       Customize to your needs
+#
+#  Warning : unit 5 and 6 appear twice (in the link 'ln -s' 
+#   and with the 'time' command)
+#
+ln -s data/data_C.ms fort.5                  # Input data file
+ln -s ex_pot/inpot_Cu.ext fort.2              # Input potential file
+ln -s clus/C.clu fort.10                     # Cluster file
+ln -s tl/tl2_C.dat fort.35                    # T-matrix file
+ln -s rad/rad2_C.dat fort.55                  # Radial file
+ln -s phagen_scf_2.1_C.lis fort.6                   # Control file
+#
+time ./phagen_dp < data/data_C.ms > phagen_scf_2.1_C.lis
+#
+rm fort.*
+#
+tail --lines=5 phagen_scf_2.1_C.lis
+#
+exit

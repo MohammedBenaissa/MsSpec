@@ -1,0 +1,116 @@
+#
+#  Makefile for the MsSpec Fortran 90 program
+#
+#         by S. Tricot and D. Sébilleau
+#
+#                                Last version: 19 May 2021
+#
+#  Compiler
+#
+FC=gfortran
+#
+#  Compile flags
+#
+#FFLAGS=
+FFLAGS=-g -fbounds-check -fbacktrace -ffpe-trap=zero,overflow,underflow,invalid,denormal
+#FFLAGS=-ffast-math -O3
+#
+#  Link flags
+#
+LDFLAGS=
+LDLIBS=
+#
+#  Executable name
+#
+EXE=spec
+#
+#  Building directory
+#
+BUILDDIR:=build
+
+.PHONY: clean
+
+cmn_DEPS:=REXS_library/ACCURACY_LIBRARY/accuracy.f90 \
+           REXS_library/DIMENSIONS_LIBRARY/dimensions.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/input_values.f90 \
+		   REXS_library/T_MATRIX_LIBRARY/T_matrix.f90 \
+		   REXS_library/RADIAL_MATRIX_LIBRARY/Auger_rad_elts.f90 \
+		   REXS_library/RADIAL_MATRIX_LIBRARY/eels_rad_elts.f90 \
+		   REXS_library/RADIAL_MATRIX_LIBRARY/ped_rad_elts.f90 \
+		   REXS_library/WAVE_FUNCTION_LIBRARY/wave_function.f90 \
+		   REXS_library/UTILITIES_LIBRARY/simple_numbers.f90 \
+		   REXS_library/UTILITIES_LIBRARY/mathematical_constants.f90 \
+		   REXS_library/UTILITIES_LIBRARY/physical_constants.f90 \
+		   REXS_library/UTILITIES_LIBRARY/locate.f90 \
+		   REXS_library/UTILITIES_LIBRARY/sort1.f90 \
+		   REXS_library/UTILITIES_LIBRARY/atomic_properties.f90
+cmn_OBJS:=$(patsubst %.f90,%.o, $(cmn_DEPS))
+
+
+io_SRCS:=REXS_library/INPUT_OUTPUT_LIBRARY/beam_param.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/beams.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/in_beam.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/ex_beam.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/o1_beam.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/o2_beam.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/o3_beam.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/fix_scan.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/current_beam.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/initialize_calc.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/store_coef.f90 \
+		REXS_library/INPUT_OUTPUT_LIBRARY/read_ext_files.f90 \
+		REXS_library/VARIOUS_FUNCTIONS_LIBRARY/arc_sin.f90 \
+		REXS_library/VARIOUS_FUNCTIONS_LIBRARY/Euler.f90 \
+		REXS_library/VARIOUS_FUNCTIONS_LIBRARY/Gaunt.f90 \
+		REXS_library/VARIOUS_FUNCTIONS_LIBRARY/Hankel_polynomials.f90 \
+		REXS_library/VARIOUS_FUNCTIONS_LIBRARY/Legendre_functions.f90 \
+		REXS_library/VARIOUS_FUNCTIONS_LIBRARY/spherical_Bessel.f90 \
+		REXS_library/VARIOUS_FUNCTIONS_LIBRARY/spherical_harmonics.f90 \
+		REXS_library/VARIOUS_FUNCTIONS_LIBRARY/Wigner_rotations.f90 \
+		REXS_library/SCATTERING_AMPLITUDE_LIBRARY/scattering_amplitude.f90 \
+		REXS_library/VECTOR_LIBRARY/vector.f90 \
+		REXS_library/CHECK_LIBRARY/check.f90 \
+		REXS_library/SPECTROSCOPY_LIBRARY/xas.f90
+io_OBJS:=$(patsubst %.f90,%.o, $(io_SRCS))
+
+#
+#  Read input data file:
+#
+read_SRCS:=$(cmn_DEPS) \
+		REXS_library/INPUT_OUTPUT_LIBRARY/read_data.f90
+read_OBJS:=$(patsubst %.f90,%.o, $(read_SRCS))
+
+#
+#  Cross-section calculation:
+#
+
+SRCS:= $(patsubst %.o,%.f90, $(io_OBJS) $(read_OBJS))
+OBJS:= $(addprefix $(BUILDDIR)/,$(notdir $(cmn_OBJS) $(io_OBJS) $(read_OBJS)))
+
+
+all: obj $(EXE)
+
+
+obj: src $(OBJS)
+
+
+$(EXE): $(OBJS) $(BUILDDIR)/spec.f90
+	@echo "building main $@..."
+	@$(FC) $(FFLAGS) $(LDFLAGS) $(LDLIBS) -J $(BUILDDIR) -o $@ $^
+
+
+%.o: %.f90
+	@echo "Compiling $@..."
+	@$(FC) $(FFLAGS) -J $(BUILDDIR) -I. -o $@ -c $^
+
+
+src: $(SRCS) spec.f90
+	@echo "updating source tree..."
+	@mkdir -p $(BUILDDIR)
+	@rsync -av $^ $(BUILDDIR)
+
+
+clean:
+	@echo "Cleaning..."
+	@rm -rf $(BUILDDIR)
+	@rm -rf $(EXE)

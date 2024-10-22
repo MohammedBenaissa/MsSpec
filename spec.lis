@@ -1,0 +1,1787 @@
+
+
+
+
+
+
+
+
+
+
+**********************************************************************************
+*********************                                        *********************
+*********************                                        *********************
+*********************  PHOTOELECTRON DIFFRACTION OF MgO(001) *********************
+*********************                                        *********************
+*********************                                        *********************
+**********************************************************************************
+
+
+
+
+
+
+
+
+
+
+                     TYPE OF SPECTROSCOPY:   
+
+          PED         0         0         0         SPECTRO,I_REL,I_SPIN,I_DICHR
+
+
+
+                     TYPE OF CALCULATION : POLAR PHOTOELECTRON DIFFRACTION
+
+           2p               10000         0         LI,S-O,SELRULE,I_SO
+            1                                       IMOD
+
+
+
+                     EXPERIMENTAL PARAMETERS: INCOMING ... PHOTON  
+
+            0         1         0.00      0.00      IPHI,NPHI,PHI0,PHI1
+            1         1       -55.00     70.00      ITHETA,NTHETA,THETA0,THETA1
+            0         1      1253.60   1253.60      IE,NE,E0,E1
+            0                                       IPOL
+
+
+
+                     EXPERIMENTAL PARAMETERS: OUTGOING ... ELECTRON
+
+            0         1         0.00      0.00      IPHI,NPHI,PHI0,PHI1
+            1        81       -10.00     70.00      ITHETA,NTHETA,THETA0,THETA1
+            0         1      1208.00   1208.00      IE,NE,E0,E1
+            0         0                             I_INT,I_AMP
+            0         1.00      0                   I_AVER,ACCEPT,ICHKDIR
+
+
+
+                     CALCULATION PARAMETERS:  CLUSTER                
+
+            5        4.2100   ANG         1         NAT,A,UNIT,I_GR
+            0         1       100        10.00      ISOM,NONVOL,NPATH,VINT
+            0         1         2                   IDWSPH,IATT,IPRINT
+            0       420.000   293.000     1.20      IMSD,TD,T,RSJ
+            0         1        20.00     20.00      ITEMP,NTEMP,TEMP1,TEMP2
+            0.01000   0.01000   0.01000   0.01000   UJ2(NAT)  : SUBSTRATE
+            0.01000                                 UJ2(NAT)  : SUBSTRATE
+
+
+
+                     CALCULATION PARAMETERS:  OUTGOING ELECTRON      
+
+            1         2         1        MI         NO,N_SCAT,I_BASIS,ALGO
+            1         1         1.000     0.000     I_REN,N_REN,REN_R,REN_I
+            0         1         7         0         ISFLIP,IR_DIA,ITRTL,I_TEST
+            0         1         0         0         IFWD,NTHOUT,I_NO,I_RA
+            1        20.00      0        20.00      N_RA(NAT),THFWD(NAT),IBWD(NAT),THBWD(NAT)
+            1        20.00      0        20.00      N_RA(NAT),THFWD(NAT),IBWD(NAT),THBWD(NAT)
+            1        20.00      0        20.00      N_RA(NAT),THFWD(NAT),IBWD(NAT),THBWD(NAT)
+            1        20.00      0        20.00      N_RA(NAT),THFWD(NAT),IBWD(NAT),THBWD(NAT)
+            1        20.00      0        20.00      N_RA(NAT),THFWD(NAT),IBWD(NAT),THBWD(NAT)
+            0         2         0.0100    2         IPW,NCUT,PCTINT,IPP
+            0         2.10    LPU                   ILENGTH,RLENGTH,UNLENGTH
+            2        15.00                          IMFP,XMFP0
+
+
+
+         ------------------------  OUTGOING ELECTRON 1: ------------------------
+
+
+
+            ---> READING T-MATRIX IN SPHERICAL WAVES REPRESENTATION
+
+
+
+
+            MAXIMAL VALUES OF L FOR THE   5 PROTOTYPICAL ATOMS : 
+
+
+
+
+                    ENERGY POINT No   1 :  186.26 eV (INTERNAL)
+
+                            11     11     11     10
+                            11
+
+
+   ---> CHECK FOR ZEROS IN THE TL FILE TO REDUCE THE AMOUNT OF COMPUTING :
+
+
+  (ONLY THE MATRIX ELEMENTS NON ZERO TO THE FIRST 9 DECIMAL DIGITS ARE KEPT)
+
+
+               ENERGY POINT No   1
+
+        PROTOTYPICAL ATOM No     1  INITIAL LMAX = 11   FINAL LMAX = 11
+        PROTOTYPICAL ATOM No     2  INITIAL LMAX = 11   FINAL LMAX = 11
+        PROTOTYPICAL ATOM No     3  INITIAL LMAX = 11   FINAL LMAX = 11
+        PROTOTYPICAL ATOM No     4  INITIAL LMAX = 10   FINAL LMAX = 10
+        PROTOTYPICAL ATOM No     5  INITIAL LMAX = 11   FINAL LMAX = 11
+
+
+
+
+
+     ELECTRIC DIPOLE EXCITATION    : 
+
+                  INITIAL STATE L = 1     FINAL STATES L = 0,2
+
+      RADIAL MATRIX ELEMENTS FOR THE ABSORBER OF TYPE  1 : ( 0.00728,-0.00016)      1 --->  0
+                                                           ( 0.18801,-0.09177)      1 --->  2
+
+
+
+
+
+                  CONTENTS OF THE CLUSTER READ FROM UNIT  1 : 
+                    READ IN ANGSTROEMS                    
+
+               No             (X,Y,Z)          CLASS ATOM
+
+                1   (  0.000,  0.000,  0.000)     1     1   Ni
+                2   (  0.000,  0.592,  0.000)     2     1   Ni
+                3   (  0.000, -0.592,  0.000)     2     2   Ni
+                4   ( -0.513,  0.296,  0.000)     2     3   Ni
+                5   ( -0.513, -0.296,  0.000)     2     4   Ni
+                6   (  0.513,  0.296,  0.000)     2     5   Ni
+                7   (  0.513, -0.296,  0.000)     2     6   Ni
+                8   (  0.171,  0.296, -0.483)     3     1   Ni
+                9   (  0.171, -0.296, -0.483)     3     2   Ni
+               10   ( -0.342,  0.000, -0.483)     3     3   Ni
+               11   ( -0.171,  0.296, -0.967)     4     1   Ni
+               12   ( -0.171, -0.296, -0.967)     4     2   Ni
+               13   (  0.342,  0.000, -0.967)     4     3   Ni
+               14   (  0.000,  0.000, -1.450)     5     1   Ni
+
+
+
+                      THE CLUSTER IS COMPOSED OF  4 PLANES :
+
+                    THE Z POSITION OF PLANE   1 IS :  0.000
+
+                    THE Z POSITION OF PLANE   2 IS : -0.483
+
+                    THE Z POSITION OF PLANE   3 IS : -0.967
+
+                    THE Z POSITION OF PLANE   4 IS : -1.450
+
+
+
+                       THE ABSORBING ATOMS ARE OF TYPE 1
+
+
+
+                  SURFACE-LIKE ATOMS FOR MSD CALCULATIONS: 
+
+                        1      2
+
+
+
+                 ---> CALCULATION OF THE SCATTERING FACTOR FOR BEAM _o1 DONE
+                 ---> STORED IN FILE scatfac/facdif1_o1.dat  
+
+
+
+
+
+########## BEGINNING OF THE POLAR PHOTOELECTRON DIFFRACTION CALCULATION ##########
+
+
+
+
+
+                        +++++++++++++++++++++++++++++++++++++
+                        +                                   +
+                        +              STANDARD             +
+                        +                                   +
+                        +   COMPLEX POTENTIAL CALCULATION   +
+                        +                                   +
+                        +                WITH               +
+                        +                                   +
+                        +        NON POLARIZED LIGHT        +
+                        +                                   +
+                        +                                   +
+                        +++++++++++++++++++++++++++++++++++++
+
+
+
+
+                               POSITION OF THE LIGHT :
+
+              TH_LIGHT = -55.00 DEGREES     PHI_LIGHT =   0.00 DEGREES
+               (WHEN THE DETECTOR IS ALONG THE NORMAL TO THE SURFACE)
+
+
+
+                 (SPHERICAL WAVES MULTIPLE SCATTERING - ORDER 2)
+
+
+
+
+
+  ******* PLANE NUMBER   1 POSITION OF THE ABSORBER : ( 0.000, 0.000, 0.000) *******
+  *******                    THIS ABSORBER IS OF TYPE  1                     *******
+
+
+
+
+
+  =========  E = 1208.00 eV     MEAN FREE PATH = 18.847 ANGSTROEMS  =========
+    LATTICE PARAMETER A =  4.210 ANGSTROEMS    MEAN FREE PATH =  4.477 * A
+
+
+
+
+
+
+   ++++++++++++++++++         PHI =   0.00 DEGREES         ++++++++++++++++++++
+
+
+
+
+
+
+
+   ++++++++++++++++++         THETA = -10.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  = -10.00     INTERNAL THETA =  -9.96
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : (-0.173,-0.000, 0.985)  ..........
+                DIRECTION OF THE LIGHT         : (-0.906,-0.000, 0.423)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  -9.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  -9.00     INTERNAL THETA =  -8.96
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : (-0.156,-0.000, 0.988)  ..........
+                DIRECTION OF THE LIGHT         : (-0.899, 0.000, 0.438)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  -8.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  -8.00     INTERNAL THETA =  -7.97
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : (-0.139,-0.000, 0.990)  ..........
+                DIRECTION OF THE LIGHT         : (-0.891, 0.000, 0.454)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  -7.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  -7.00     INTERNAL THETA =  -6.97
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : (-0.121,-0.000, 0.993)  ..........
+                DIRECTION OF THE LIGHT         : (-0.883, 0.000, 0.469)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  -6.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  -6.00     INTERNAL THETA =  -5.98
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : (-0.104,-0.000, 0.995)  ..........
+                DIRECTION OF THE LIGHT         : (-0.875, 0.000, 0.485)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  -5.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  -5.00     INTERNAL THETA =  -4.98
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : (-0.087,-0.000, 0.996)  ..........
+                DIRECTION OF THE LIGHT         : (-0.866, 0.000, 0.500)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  -4.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  -4.00     INTERNAL THETA =  -3.98
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : (-0.069,-0.000, 0.998)  ..........
+                DIRECTION OF THE LIGHT         : (-0.857, 0.000, 0.515)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  -3.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  -3.00     INTERNAL THETA =  -2.99
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : (-0.052,-0.000, 0.999)  ..........
+                DIRECTION OF THE LIGHT         : (-0.848, 0.000, 0.530)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  -2.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  -2.00     INTERNAL THETA =  -1.99
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : (-0.035,-0.000, 0.999)  ..........
+                DIRECTION OF THE LIGHT         : (-0.839, 0.000, 0.545)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  -1.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  -1.00     INTERNAL THETA =  -1.00
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : (-0.017,-0.000, 1.000)  ..........
+                DIRECTION OF THE LIGHT         : (-0.829, 0.000, 0.559)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =   0.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =   0.00     INTERNAL THETA =   0.00
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.000, 0.000, 1.000)  ..........
+                DIRECTION OF THE LIGHT         : (-0.819, 0.000, 0.574)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =   1.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =   1.00     INTERNAL THETA =   1.00
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.017, 0.000, 1.000)  ..........
+                DIRECTION OF THE LIGHT         : (-0.809, 0.000, 0.588)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =   2.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =   2.00     INTERNAL THETA =   1.99
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.035, 0.000, 0.999)  ..........
+                DIRECTION OF THE LIGHT         : (-0.799, 0.000, 0.602)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =   3.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =   3.00     INTERNAL THETA =   2.99
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.052, 0.000, 0.999)  ..........
+                DIRECTION OF THE LIGHT         : (-0.788, 0.000, 0.616)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =   4.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =   4.00     INTERNAL THETA =   3.98
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.069, 0.000, 0.998)  ..........
+                DIRECTION OF THE LIGHT         : (-0.777, 0.000, 0.629)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =   5.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =   5.00     INTERNAL THETA =   4.98
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.087, 0.000, 0.996)  ..........
+                DIRECTION OF THE LIGHT         : (-0.766, 0.000, 0.643)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =   6.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =   6.00     INTERNAL THETA =   5.98
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.104, 0.000, 0.995)  ..........
+                DIRECTION OF THE LIGHT         : (-0.755, 0.000, 0.656)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =   7.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =   7.00     INTERNAL THETA =   6.97
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.121, 0.000, 0.993)  ..........
+                DIRECTION OF THE LIGHT         : (-0.743, 0.000, 0.669)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =   8.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =   8.00     INTERNAL THETA =   7.97
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.139, 0.000, 0.990)  ..........
+                DIRECTION OF THE LIGHT         : (-0.731, 0.000, 0.682)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =   9.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =   9.00     INTERNAL THETA =   8.96
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.156, 0.000, 0.988)  ..........
+                DIRECTION OF THE LIGHT         : (-0.719, 0.000, 0.695)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  10.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  10.00     INTERNAL THETA =   9.96
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.173, 0.000, 0.985)  ..........
+                DIRECTION OF THE LIGHT         : (-0.707, 0.000, 0.707)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  11.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  11.00     INTERNAL THETA =  10.95
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.190, 0.000, 0.982)  ..........
+                DIRECTION OF THE LIGHT         : (-0.695, 0.000, 0.719)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  12.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  12.00     INTERNAL THETA =  11.95
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.207, 0.000, 0.978)  ..........
+                DIRECTION OF THE LIGHT         : (-0.682, 0.000, 0.731)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  13.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  13.00     INTERNAL THETA =  12.95
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.224, 0.000, 0.975)  ..........
+                DIRECTION OF THE LIGHT         : (-0.669, 0.000, 0.743)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  14.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  14.00     INTERNAL THETA =  13.94
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.241, 0.000, 0.971)  ..........
+                DIRECTION OF THE LIGHT         : (-0.656, 0.000, 0.755)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  15.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  15.00     INTERNAL THETA =  14.94
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.258, 0.000, 0.966)  ..........
+                DIRECTION OF THE LIGHT         : (-0.643, 0.000, 0.766)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  16.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  16.00     INTERNAL THETA =  15.93
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.275, 0.000, 0.962)  ..........
+                DIRECTION OF THE LIGHT         : (-0.629, 0.000, 0.777)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  17.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  17.00     INTERNAL THETA =  16.93
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.291, 0.000, 0.957)  ..........
+                DIRECTION OF THE LIGHT         : (-0.616, 0.000, 0.788)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  18.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  18.00     INTERNAL THETA =  17.92
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.308, 0.000, 0.951)  ..........
+                DIRECTION OF THE LIGHT         : (-0.602, 0.000, 0.799)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  19.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  19.00     INTERNAL THETA =  18.92
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.324, 0.000, 0.946)  ..........
+                DIRECTION OF THE LIGHT         : (-0.588, 0.000, 0.809)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  20.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  20.00     INTERNAL THETA =  19.91
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.341, 0.000, 0.940)  ..........
+                DIRECTION OF THE LIGHT         : (-0.574, 0.000, 0.819)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  21.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  21.00     INTERNAL THETA =  20.91
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.357, 0.000, 0.934)  ..........
+                DIRECTION OF THE LIGHT         : (-0.559, 0.000, 0.829)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  22.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  22.00     INTERNAL THETA =  21.90
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.373, 0.000, 0.928)  ..........
+                DIRECTION OF THE LIGHT         : (-0.545, 0.000, 0.839)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  23.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  23.00     INTERNAL THETA =  22.90
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.389, 0.000, 0.921)  ..........
+                DIRECTION OF THE LIGHT         : (-0.530, 0.000, 0.848)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  24.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  24.00     INTERNAL THETA =  23.90
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.405, 0.000, 0.914)  ..........
+                DIRECTION OF THE LIGHT         : (-0.515, 0.000, 0.857)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  25.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  25.00     INTERNAL THETA =  24.89
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.421, 0.000, 0.907)  ..........
+                DIRECTION OF THE LIGHT         : (-0.500, 0.000, 0.866)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  26.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  26.00     INTERNAL THETA =  25.89
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.437, 0.000, 0.900)  ..........
+                DIRECTION OF THE LIGHT         : (-0.485, 0.000, 0.875)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  27.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  27.00     INTERNAL THETA =  26.88
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.452, 0.000, 0.892)  ..........
+                DIRECTION OF THE LIGHT         : (-0.469, 0.000, 0.883)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  28.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  28.00     INTERNAL THETA =  27.87
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.468, 0.000, 0.884)  ..........
+                DIRECTION OF THE LIGHT         : (-0.454, 0.000, 0.891)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  29.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  29.00     INTERNAL THETA =  28.87
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.483, 0.000, 0.876)  ..........
+                DIRECTION OF THE LIGHT         : (-0.438, 0.000, 0.899)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  30.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  30.00     INTERNAL THETA =  29.86
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.498, 0.000, 0.867)  ..........
+                DIRECTION OF THE LIGHT         : (-0.423, 0.000, 0.906)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  31.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  31.00     INTERNAL THETA =  30.86
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.513, 0.000, 0.858)  ..........
+                DIRECTION OF THE LIGHT         : (-0.407, 0.000, 0.914)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  32.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  32.00     INTERNAL THETA =  31.85
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.528, 0.000, 0.849)  ..........
+                DIRECTION OF THE LIGHT         : (-0.391, 0.000, 0.921)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  33.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  33.00     INTERNAL THETA =  32.85
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.542, 0.000, 0.840)  ..........
+                DIRECTION OF THE LIGHT         : (-0.375, 0.000, 0.927)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  34.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  34.00     INTERNAL THETA =  33.84
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.557, 0.000, 0.831)  ..........
+                DIRECTION OF THE LIGHT         : (-0.358, 0.000, 0.934)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  35.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  35.00     INTERNAL THETA =  34.84
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.571, 0.000, 0.821)  ..........
+                DIRECTION OF THE LIGHT         : (-0.342, 0.000, 0.940)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  36.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  36.00     INTERNAL THETA =  35.83
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.585, 0.000, 0.811)  ..........
+                DIRECTION OF THE LIGHT         : (-0.326, 0.000, 0.946)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  37.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  37.00     INTERNAL THETA =  36.82
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.599, 0.000, 0.800)  ..........
+                DIRECTION OF THE LIGHT         : (-0.309, 0.000, 0.951)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  38.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  38.00     INTERNAL THETA =  37.82
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.613, 0.000, 0.790)  ..........
+                DIRECTION OF THE LIGHT         : (-0.292, 0.000, 0.956)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  39.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  39.00     INTERNAL THETA =  38.81
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.627, 0.000, 0.779)  ..........
+                DIRECTION OF THE LIGHT         : (-0.276, 0.000, 0.961)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  40.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  40.00     INTERNAL THETA =  39.80
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.640, 0.000, 0.768)  ..........
+                DIRECTION OF THE LIGHT         : (-0.259, 0.000, 0.966)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  41.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  41.00     INTERNAL THETA =  40.80
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.653, 0.000, 0.757)  ..........
+                DIRECTION OF THE LIGHT         : (-0.242, 0.000, 0.970)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  42.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  42.00     INTERNAL THETA =  41.79
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.666, 0.000, 0.746)  ..........
+                DIRECTION OF THE LIGHT         : (-0.225, 0.000, 0.974)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  43.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  43.00     INTERNAL THETA =  42.78
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.679, 0.000, 0.734)  ..........
+                DIRECTION OF THE LIGHT         : (-0.208, 0.000, 0.978)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  44.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  44.00     INTERNAL THETA =  43.77
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.692, 0.000, 0.722)  ..........
+                DIRECTION OF THE LIGHT         : (-0.191, 0.000, 0.982)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  45.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  45.00     INTERNAL THETA =  44.76
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.704, 0.000, 0.710)  ..........
+                DIRECTION OF THE LIGHT         : (-0.174, 0.000, 0.985)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  46.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  46.00     INTERNAL THETA =  45.76
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.716, 0.000, 0.698)  ..........
+                DIRECTION OF THE LIGHT         : (-0.156, 0.000, 0.988)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  47.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  47.00     INTERNAL THETA =  46.75
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.728, 0.000, 0.685)  ..........
+                DIRECTION OF THE LIGHT         : (-0.139, 0.000, 0.990)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  48.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  48.00     INTERNAL THETA =  47.74
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.740, 0.000, 0.673)  ..........
+                DIRECTION OF THE LIGHT         : (-0.122, 0.000, 0.993)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  49.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  49.00     INTERNAL THETA =  48.73
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.752, 0.000, 0.660)  ..........
+                DIRECTION OF THE LIGHT         : (-0.105, 0.000, 0.995)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  50.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  50.00     INTERNAL THETA =  49.72
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.763, 0.000, 0.647)  ..........
+                DIRECTION OF THE LIGHT         : (-0.087, 0.000, 0.996)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  51.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  51.00     INTERNAL THETA =  50.71
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.774, 0.000, 0.633)  ..........
+                DIRECTION OF THE LIGHT         : (-0.070, 0.000, 0.998)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  52.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  52.00     INTERNAL THETA =  51.70
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.785, 0.000, 0.620)  ..........
+                DIRECTION OF THE LIGHT         : (-0.052, 0.000, 0.999)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  53.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  53.00     INTERNAL THETA =  52.69
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.795, 0.000, 0.606)  ..........
+                DIRECTION OF THE LIGHT         : (-0.035, 0.000, 0.999)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  54.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  54.00     INTERNAL THETA =  53.68
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.806, 0.000, 0.592)  ..........
+                DIRECTION OF THE LIGHT         : (-0.017, 0.000, 1.000)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  55.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  55.00     INTERNAL THETA =  54.66
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.816, 0.000, 0.578)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.000, 0.000, 1.000)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  56.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  56.00     INTERNAL THETA =  55.65
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.826, 0.000, 0.564)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.017, 0.000, 1.000)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  57.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  57.00     INTERNAL THETA =  56.64
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.835, 0.000, 0.550)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.035, 0.000, 0.999)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  58.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  58.00     INTERNAL THETA =  57.62
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.845, 0.000, 0.535)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.052, 0.000, 0.999)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  59.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  59.00     INTERNAL THETA =  58.61
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.854, 0.000, 0.521)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.070, 0.000, 0.998)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  60.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  60.00     INTERNAL THETA =  59.59
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.862, 0.000, 0.506)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.087, 0.000, 0.996)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  61.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  61.00     INTERNAL THETA =  60.58
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.871, 0.000, 0.491)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.105, 0.000, 0.995)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  62.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  62.00     INTERNAL THETA =  61.56
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.879, 0.000, 0.476)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.122, 0.000, 0.993)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  63.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  63.00     INTERNAL THETA =  62.54
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.887, 0.000, 0.461)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.139, 0.000, 0.990)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  64.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  64.00     INTERNAL THETA =  63.52
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.895, 0.000, 0.446)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.156, 0.000, 0.988)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  65.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  65.00     INTERNAL THETA =  64.50
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.903, 0.000, 0.431)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.174, 0.000, 0.985)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  66.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  66.00     INTERNAL THETA =  65.48
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.910, 0.000, 0.415)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.191, 0.000, 0.982)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  67.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  67.00     INTERNAL THETA =  66.45
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.917, 0.000, 0.400)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.208, 0.000, 0.978)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  68.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  68.00     INTERNAL THETA =  67.42
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.923, 0.000, 0.384)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.225, 0.000, 0.974)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  69.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  69.00     INTERNAL THETA =  68.39
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.930, 0.000, 0.368)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.242, 0.000, 0.970)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+   ++++++++++++++++++         THETA =  70.00 DEGREES         ++++++++++++++++++
+
+
+
+
+
+               THE SCATTERING DIRECTION IS GIVEN INSIDE THE CRYSTAL
+
+          ELECTRON EXTERNAL THETA  =  70.00     INTERNAL THETA =  69.36
+
+
+
+    ..........  DIRECTION OF THE DETECTOR      : ( 0.936, 0.000, 0.352)  ..........
+                DIRECTION OF THE LIGHT         : ( 0.259, 0.000, 0.966)
+                ANALYZER.LIGHT               :         0.5736
+
+
+
+
+
+########## END OF THE POLAR PHOTOELECTRON DIFFRACTION CALCULATION ##########

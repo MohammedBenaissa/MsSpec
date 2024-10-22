@@ -1,0 +1,211 @@
+ _________________________________________________________________
+
+                               PHAGEN
+ _________________________________________________________________
+
+ -----------------------------------------------------------------
+  parameters for this xpd calculation:
+ -----------------------------------------------------------------
+  edge= l2
+  potype= hedin     norman= stdcrm    absorber=  1
+  coor= angs        emin=   13.52 Ry  emax=   13.52 Ry
+  delta=  0.300 Ry  gamma=  0.03  Ry  eftri=  0.000  Ry
+  cip=    0.00  Ry  lmaxt= 50         charelx: ex
+  ionization state : neutral
+  relativistic corrections of type: nr
+  final state potential generated internally
+
+
+  Computes the T-matrix and radial matrix elements                              
+
+
+  coordinates in angstroms                         Radii
+ -----------------------------------------------------------------
+  Ni    28    0.0000    0.0000    0.0000    0.0000 0.0000
+  Ni    28    0.0000    2.4918    0.0000    0.0000 0.0000
+  Ni    28    0.0000   -2.4918    0.0000    0.0000 0.0000
+  Ni    28   -2.1580    1.2459    0.0000    0.0000 0.0000
+  Ni    28   -2.1580   -1.2459    0.0000    0.0000 0.0000
+  Ni    28    2.1580    1.2459    0.0000    0.0000 0.0000
+  Ni    28    2.1580   -1.2459    0.0000    0.0000 0.0000
+  Ni    28    0.7193    1.2459   -2.0346    0.0000 0.0000
+  Ni    28    0.7193   -1.2459   -2.0346    0.0000 0.0000
+  Ni    28   -1.4387    0.0000   -2.0346    0.0000 0.0000
+  Ni    28   -0.7193    1.2459   -4.0692    0.0000 0.0000
+  Ni    28   -0.7193   -1.2459   -4.0692    0.0000 0.0000
+  Ni    28    1.4387    0.0000   -4.0692    0.0000 0.0000
+  Ni    28    0.0000    0.0000   -6.1037    0.0000 0.0000
+ -----------------------------------------------------------------
+
+
+  ** enter calphas **
+                        ---
+  total energy for atom in ground state 
+  total energy for atom with a hole in l2 edge
+  calculated ionization energy for edge l2 =    886.26034877796872       eV
+  energy distance between edges l2 and l3  =     17.966654383503609      eV
+                        ---
+  calculated ionization potential (ryd)    =   65.166200288164418     
+                        ---
+           
+           
+  symmetrizing coordinates... 
+
+
+               symmetrized atomic coordinates of cluster  
+
+                                  position
+            atom    no.    x         y         z        eq
+
+           1  osph     0    0.0000    0.0000    0.0000     0
+           2  Ni      28    0.0000    0.0000    3.2955     0
+           3  Ni      28    0.0000    4.7089    3.2955     0
+           4  Ni      28    1.3593    2.3545   -0.5493     0
+           5  Ni      28   -1.3593    2.3545   -4.3941     0
+           6  Ni      28    0.0000    0.0000   -8.2389     0
+           7  Ni      28    0.0000   -4.7089    3.2955     3
+           8  Ni      28   -4.0780    2.3545    3.2955     3
+           9  Ni      28   -4.0780   -2.3545    3.2955     3
+          10  Ni      28    4.0780    2.3545    3.2955     3
+          11  Ni      28    4.0780   -2.3545    3.2955     3
+          12  Ni      28    1.3593   -2.3545   -0.5493     4
+          13  Ni      28   -2.7187    0.0000   -0.5493     4
+          14  Ni      28   -1.3593   -2.3545   -4.3941     5
+          15  Ni      28    2.7187    0.0000   -4.3941     5
+
+  computing muffin tin potential and phase shifts
+  generating core state wavefunction 
+  generating final potential (complex hedin-lundqvist exchange)    
+  MT radii for Hydrogen atoms determined by stdcrm unless other options are specified
+
+ -----------------------------------------------------------------
+  i    rs(i)   i=1,natoms      
+    1   10.68    2    2.31    3    2.45    4    2.39    5    2.26    6    2.45    7    2.45    8    2.45
+    9    2.45   10    2.45   11    2.45   12    2.39   13    2.39   14    2.26   15    2.26
+  N.B.: Order of atoms as reshuffled by symmetry routines 
+ -----------------------------------------------------------------
+
+  input value for coulomb interst. potential = -0.69999999999999996     
+  and interstitial rs =   3.0000000000000000     
+  lower bound for coulomb interst. potential = -0.53146435534768632     
+  and for interst. rs =   2.1161295106370335     
+
+  lmax assignment based on l_max = r_mt * k_e + 2
+  where e is the running energy
+  optimal lmax chosen according to the running energy e for each atom
+
+
+  number of centers=   14
+
+  starting potentials and/or charge densities written to file 13
+  symmetry information generated internally
+  symmetry information  written  to file 14
+
+
+  core initial state of type: 2p1/2
+
+  fermi level =  -0.17070
+
+
+  generating t_l (for030) and atomic cross section (for050)
+ corewf: fnisx =   0.99903808512687065     
+ writing atomic orbital energies
+  orbital energy  (Ryd   eV)  1s     -617.89885862899450       -8406.5136887958197     
+  orbital energy  (Ryd   eV)  2s     -77.286587736539147       -1051.4839907766229     
+  orbital energy  (Ryd   eV)  2p1/2  -67.101438652299535       -912.91504214793429     
+  orbital energy  (Ryd   eV)  2p3/2  -65.742122304563495       -894.42154385923106     
+  orbital energy  (Ryd   eV)  3s     -10.017528981855786       -136.28847721248712     
+  orbital energy  (Ryd   eV)  3p1/2  -6.8511514877673507       -93.209912854866545     
+  orbital energy  (Ryd   eV)  3p3/2  -6.4946391352993187       -88.359562462737372     
+  orbital energy  (Ryd   eV)  3d3/2  -1.3857133249504883       -18.852629151622175     
+  orbital energy  (Ryd   eV)  3d5/2  -1.3361810116445281       -18.178742051768680     
+  orbital energy  (Ryd   eV)  4s    -0.56292746832704810       -7.6586279489017448     
+
+ using overlapped potential to search for core states of photoabsorber
+
+  calculating non relativistic core states
+ ------------------------------
+  energy of core state =   -601.27287133536822       for orbital =1s   
+  n. of zeros found:           0  expected:            0
+ ------------------------------
+  energy of core state =   -73.467472079944628       for orbital =2s   
+  n. of zeros found:           1  expected:            1
+ ------------------------------
+  energy of core state =   -65.060498854754485       for orbital =2p1/2
+  n. of zeros found:           0  expected:            0
+ ------------------------------
+  energy of core state =   -65.060498854883662       for orbital =2p3/2
+  n. of zeros found:           0  expected:            0
+ ------------------------------
+  energy of core state =   -8.3218120071341932       for orbital =3s   
+  n. of zeros found:           2  expected:            2
+ ------------------------------
+  energy of core state =   -5.6213844213815847       for orbital =3p1/2
+  n. of zeros found:           1  expected:            1
+ ------------------------------
+  energy of core state =   -5.6213847377248616       for orbital =3p3/2
+  n. of zeros found:           1  expected:            1
+
+  calculating relativistic core states
+  energy of core state =   -609.04669618670516       for orb =1s   
+  n. of zeros found:           0  expected:            0
+  energy of core state =   -75.249453868478781       for orb =2s   
+  n. of zeros found:           1  expected:            1
+  energy of core state =   -66.697234890324069       for orb =2p1/2
+  n. of zeros found:           0  expected:            0
+  energy of core state =   -65.361853881972010       for orb =2p3/2
+  n. of zeros found:           0  expected:            0
+  energy of core state =   -8.6218726940813575       for orb =3s   
+  n. of zeros found:           2  expected:            2
+  energy of core state =   -5.8617363253485859       for orb =3p1/2
+  n. of zeros found:           1  expected:            1
+  energy of core state =   -5.6871365236013300       for orb =3p3/2
+  n. of zeros found:           1  expected:            1
+ -------------------------------
+  density of the valence charge (au^{-3}   2.7405150749910852E-002
+  rs_v corresponding to valence density (au)   2.0575942666477172     
+  valence plasmon energy (in eV)    14.128512601363877     
+
+  gamma =  0.030000   rsint =  4.065780
+
+  check in subroutine cont
+  order of neighb. -- symb. -- dist. from absorber
+  
+           3 Ni         4.7089023241489310     
+           2 Ni         4.7089027073653362     
+           4 Ni         8.1560600136251633     
+           5 Ni         11.534410169084843     
+  -----------------------------------------------------------------
+        1            Ni            0.000000
+        2            Ni            4.708903
+        3            Ni            4.708902
+        4            Ni            8.156060
+        5            Ni           11.534410
+        1            Ni            0.000000
+        3            Ni            4.708902
+        4            Ni            8.156060
+        5            Ni           11.534410
+   
+  irho =           2  entering vxc to calculate energy dependent exchange
+  energy dependent vcon =             (-0.16649701272505602,0.17791380464959550)  at energy   13.523600000000000     
+  check ionization potential:   65.166200288164418     
+   
+   
+  value of the mean free path:
+ -----------------------------------------------------------------
+  average mean free path due to finite gamma: mfp =   8.81667  angstrom at energy   13.52360
+
+  average mean free path in the cluster     : mfp =   8.49818  angstrom at energy   13.52360
+
+  total mean free path due to Im V and gamma: mfp =   4.32725  angstrom at energy   13.52360
+ -----------------------------------------------------------------
+   
+  calculating atomic t-matrix elements atm(n)
+  check orthogonality between core and continuum state
+  scalar product between core and continuum state =             (0.58814060568457149,0.28963260115033618)
+  --- sqrt(xe/pi) =        (1.0852594630420263,-3.52576848648313186E-003)
+
+
+                ** phagen terminated normally ** 
+
+

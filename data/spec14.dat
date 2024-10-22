@@ -1,0 +1,1497 @@
+    ***************************************************************************
+    *                  PHOTOELECTRON DIFFRACTION OF MgO(001)                  *
+    ***************************************************************************
+    *====+=========+=========+=========+=========+============================*
+    *                      TYPE OF SPECTROSCOPY:                              *
+    *====+=========+=========+=========+=========+============================*
+    *  PED         0         0         0         SPECTRO,I_REL,I_SPIN,I_DICHR *
+    *====+=========+=========+=========+=========+============================*
+    *                      PED EXPERIMENTAL PARAMETERS:                       *
+    *====+=========+=========+=========+=========+============================*
+    *   2p        1/2    10000         0         LI,S-O,SELRULE,I_SO          *
+    *    1                                       IMOD                         *
+    *====+=========+=========+=========+=========+============================*
+    *                      LEED EXPERIMENTAL PARAMETERS:                      *
+    *====+=========+=========+=========+=========+============================*
+    *    1                                       IMOD                         *
+    *====+=========+=========+=========+=========+============================*
+    *                      EXAFS EXPERIMENTAL PARAMETERS:                     *
+    *====+=========+=========+=========+=========+============================*
+    *   L1     10000                             EDGE,SELRULE                 *
+    *    1                                       IMOD                         *
+    *====+=========+=========+=========+=========+============================*
+    *                      AED EXPERIMENTAL PARAMETERS:                       *
+    *====+=========+=========+=========+=========+============================*
+    *   K         L2        L3                   EDGE_C,EDGE_I,EDGE_A         *
+    *    1        1S0                            I_MULT,MULT                  *
+    *    1                                       IMOD                         *
+    *====+=========+=========+=========+=========+============================*
+    *                      APECS EXPERIMENTAL PARAMETERS:                     *
+    *====+=========+=========+=========+=========+============================*
+    *   2p        3/2    10000         0         LI,S-O,SELRULE,I_SO          *
+    *   K         L2        L3                   EDGE_C,EDGE_I,EDGE_A         *
+    *    1        1S0                            I_MULT,MULT                  *
+    *    1                                       IMOD                         *
+    *====+=========+=========+=========+=========+============================*
+    *                      (E,2E) EXPERIMENTAL PARAMETERS:                    *
+    *====+=========+=========+=========+=========+============================*
+    *   2p        3/2        1         0         LI,S-O,ISELRULE,I_SO         *
+    *  CEL      DWBA                             MODE,CS_TYPE                 *
+    *    1                                       IMOD                         *
+    *====+=========+=========+=========+=========+============================*
+    *                      EELS EXPERIMENTAL PARAMETERS:                      *
+    *====+=========+=========+=========+=========+============================*
+    *   2p        3/2        1         0         LI,S-O,ISELRULE,I_SO         *
+    *  CEL      DWBA                             MODE,CS_TYPE                 *
+    *    1                                       IMOD                         *
+    *====+=========+=========+=========+=========+============================*
+    *                      REXS EXPERIMENTAL PARAMETERS:                      *
+    *====+=========+=========+=========+=========+============================*
+    *   L1     10000     10000                   EDGE,SELRULE_IN,SELRULE_O1   *
+    *    1                                       IMOD                         *
+    *====+=========+=========+=========+=========+============================*
+    *                      PEELS EXPERIMENTAL PARAMETERS:                     *
+    *====+=========+=========+=========+=========+============================*
+    *   2p        3/2    10000         0         LI,S-O,SELRULE,I_SO          *
+    *    1         1                             N_PLA,I_BLK                  *
+    *   15.00      0.00      0.00      0.00      E_PLA(J_PLA)                 *
+    *    1                                       IMOD                         *
+    *====+=========+=========+=========+=========+============================*
+    *                  EXPERIMENTAL PARAMETERS: INCOMING ... ELECTRON         *
+    *====+=========+=========+=========+=========+============================*
+    *    0         1         0.00    360.00      IPHI,NPHI,PHI0,PHI1          *
+    *    1        81       -10.00     70.00      ITHETA,NTHETA,THETA0,THETA1  *
+    *    0         1      1208.00   1208.00      IE,NE,E0,E1                  *
+    *    0         0                             I_INT,I_AMP                  *
+    *    0         1.00      0                   I_AVER,ACCEPT,ICHKDIR        *
+    *====+=========+=========+=========+=========+============================*
+    *                  EXPERIMENTAL PARAMETERS: EXCITED .... ELECTRON         *
+    *====+=========+=========+=========+=========+============================*
+    *    0         1      1208.00   1208.00      IE,NE,E0,E1                  *
+    *====+=========+=========+=========+=========+============================*
+    *                  EXPERIMENTAL PARAMETERS: OUTGOING ... ELECTRON         *
+    *====+=========+=========+=========+=========+============================*
+    *    0         1         0.00      0.00      IPHI,NPHI,PHI0,PHI1          *
+    *    1        81       -10.00     70.00      ITHETA,NTHETA,THETA0,THETA1  *
+    *    0         1      1208.00   1208.00      IE,NE,E0,E1                  *
+    *    0         0                             I_INT,I_AMP                  *
+    *    0         1.00      0                   I_AVER,ACCEPT,ICHKDIR        *
+    *====+=========+=========+=========+=========+============================*
+    *                  EXPERIMENTAL PARAMETERS: 2nd OUTGOING ELECTRON         *
+    *====+=========+=========+=========+=========+============================*
+    *    0         1         0.00    360.00      IPHI,NPHI,PHI0,PHI1          *
+    *    1        81       -10.00     70.00      ITHETA,NTHETA,THETA0,THETA1  *
+    *    0         1      1208.00   1208.00      IE,NE,E0,E1                  *
+    *    0         0                             I_INT,I_AMP                  *
+    *    0         1.00      0                   I_AVER,ACCEPT,ICHKDIR        *
+    *====+=========+=========+=========+=========+============================*
+    *                  EXPERIMENTAL PARAMETERS: 3rd OUTGOING ELECTRON         *
+    *====+=========+=========+=========+=========+============================*
+    *    0         1         0.00    360.00      IPHI,NPHI,PHI0,PHI1          *
+    *    1        81       -10.00     70.00      ITHETA,NTHETA,THETA0,THETA1  *
+    *    0         1      1208.00   1208.00      IE,NE,E0,E1                  *
+    *    0         0                             I_INT,I_AMP                  *
+    *    0         1.00      0                   I_AVER,ACCEPT,ICHKDIR        *
+    *====+=========+=========+=========+=========+============================*
+    *                  EXPERIMENTAL PARAMETERS: INCOMING ... PHOTON           *
+    *====+=========+=========+=========+=========+============================*
+    *    0         1         0.00      0.00      IPHI,NPHI,PHI0,PHI1          *
+    *    1         1       -55.00     70.00      ITHETA,NTHETA,THETA0,THETA1  *
+    *    0         1      1253.60   1253.60      IE,NE,E0,E1                  *
+    *    0                                       IPOL                         *
+    *====+=========+=========+=========+=========+============================*
+    *                  EXPERIMENTAL PARAMETERS: OUTGOING ... PHOTON           *
+    *====+=========+=========+=========+=========+============================*
+    *    0         1         0.00    360.00      IPHI,NPHI,PHI0,PHI1          *
+    *    1        81       -10.00     70.00      ITHETA,NTHETA,THETA0,THETA1  *
+    *    0         1      1208.00   1208.00      IE,NE,E0,E1                  *
+    *    1                                       IPOL                         *
+    *====+=========+=========+=========+=========+============================*
+    *                  CALCULATION PARAMETERS:  CLUSTER                       *
+    *====+=========+=========+=========+=========+============================*
+    *    5        4.2100   ANG         1         NAT,A,UNIT,I_GR              *
+    *    0         1       100        10.00      ISOM,NONVOL,NPATH,VINT       *
+    *    0         1         2                   IDWSPH,IATT,IPRINT           *
+    *    0       420.00    293.00      1.20      IMSD,TD,T,RSJ                *
+    *    0         1        20.00     20.00      ITEMP,NTEMP,TEMP0,TEMP1      *
+    * .. 0.01000   0.01000   0.01000   0.01000   UJ2(NAT)                     *
+    * .. 0.01000   0.01000   0.01000   0.01000   UJ2(NAT)                     *
+    *====+=========+=========+=========+=========+============================*
+    *                  CALCULATION PARAMETERS:  EIGENVALUES                   *
+    *====+=========+=========+=========+=========+============================*
+    *    4        10.00    200.0       3         NE,EK_INI,EK_FIN,I_DAMP      *
+    *    0         0         0         0         I_SPECTRUM(NE)               *
+    *    1      EPSI         0.00100   1.000     I_PWM,METHOD,ACC,EXPO        *
+    *  200        10         3         0.000     N_MAX,N_ITER,N_TABLE,SHIFT   *
+    *    1         1         1         1         I_XN,I_VA,I_GN,I_WN          *
+    *    0         1.00      1.00                L,ALPHA,BETA                 *
+    *====+=========+=========+=========+=========+============================*
+    *                  CALCULATION PARAMETERS:  INCOMING ELECTRON             *
+    *====+=========+=========+=========+=========+============================*
+    *    1         2         1        MI         NO,N_SCAT,I_BASIS,ALGO       *
+    *    0         1         1.000     0.000     I_REN,N_REN,REN_R,REN_I      *
+    *    0         1         7         0         ISFLIP,IR_DIA,ITRTL,I_TEST   *
+    *    0         1         0         0         IFWD,NTHOUT,I_NO,I_RA        *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    *    0         2         0.0100    1         IPW,NCUT,PCTINT,IPP          *
+    *    0         2.10    LPU                   ILENGTH,RLENGTH,UNLENGTH     *
+    *    2        15.00                          IMFP,XMFP0                   *
+    *    1       577         0.50     -1.00      IFTHET,NFTHET,R0,R1          *
+    *====+=========+=========+=========+=========+============================*
+    *                  CALCULATION PARAMETERS:  EXCITED ELECTRON              *
+    *====+=========+=========+=========+=========+============================*
+    *    1         2         1        MI         NO,N_SCAT,I_BASIS,ALGO       *
+    *    0         1         1.000     0.000     I_REN,N_REN,REN_R,REN_I      *
+    *    0         1         7         0         ISFLIP,IR_DIA,ITRTL,I_TEST   *
+    *    0         1         0         0         IFWD,NTHOUT,I_NO,I_RA        *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    *    0         2         0.0100    1         IPW,NCUT,PCTINT,IPP          *
+    *    0         2.10    LPU                   ILENGTH,RLENGTH,UNLENGTH     *
+    *    2        15.00                          IMFP,XMFP0                   *
+    *    1       577         0.50     -1.00      IFTHET,NFTHET,R0,R1          *
+    *====+=========+=========+=========+=========+============================*
+    *                  CALCULATION PARAMETERS:  OUTGOING ELECTRON             *
+    *====+=========+=========+=========+=========+============================*
+    *    1         2         1        MI         NO,N_SCAT,I_BASIS,ALGO       *
+    *    1         1         1.000     0.000     I_REN,N_REN,REN_R,REN_I      *
+    *    0         1         7         0         ISFLIP,IR_DIA,ITRTL,I_TEST   *
+    *    0         1         0         0         IFWD,NTHOUT,I_NO,I_RA        *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    *    0         2         0.0100    2         IPW,NCUT,PCTINT,IPP          *
+    *    0         2.10    LPU                   ILENGTH,RLENGTH,UNLENGTH     *
+    *    2        15.00                          IMFP,XMFP0                   *
+    *    1       577         0.50     -1.00      IFTHET,NFTHET,R0,R1          *
+    *====+=========+=========+=========+=========+============================*
+    *                  CALCULATION PARAMETERS:  2nd OUTGOING ELECTRON         *
+    *====+=========+=========+=========+=========+============================*
+    *    1         2         1        MI         NO,N_SCAT,I_BASIS,ALGO       *
+    *    0         1         1.000     0.000     I_REN,N_REN,REN_R,REN_I      *
+    *    0         1         7         0         ISFLIP,IR_DIA,ITRTL,I_TEST   *
+    *    0         1         0         0         IFWD,NTHOUT,I_NO,I_RA        *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    *    0         2         0.0100    2         IPW,NCUT,PCTINT,IPP          *
+    *    0         2.10    LPU                   ILENGTH,RLENGTH,UNLENGTH     *
+    *    2        15.00                          IMFP,XMFP0                   *
+    *    1       577         0.50     -1.00      IFTHET,NFTHET,R0,R1          *
+    *====+=========+=========+=========+=========+============================*
+    *                  CALCULATION PARAMETERS:  3rd OUTGOING ELECTRON         *
+    *====+=========+=========+=========+=========+============================*
+    *    1         2         1        MI         NO,N_SCAT,I_BASIS,ALGO       *
+    *    0         1         1.000     0.000     I_REN,N_REN,REN_R,REN_I      *
+    *    0         1         7         0         ISFLIP,IR_DIA,ITRTL,I_TEST   *
+    *    0         1         0         0         IFWD,NTHOUT,I_NO,I_RA        *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    *    0         2         0.0100    2         IPW,NCUT,PCTINT,IPP          *
+    *    0         2.10    LPU                   ILENGTH,RLENGTH,UNLENGTH     *
+    *    2        15.00                          IMFP,XMFP0                   *
+    *    0         1         0.50     -1.00      IFTHET,NFTHET,R0,R1          *
+    *    1       577         0.50     -1.00      IFTHET,NFTHET,R0,R1          *
+    *====+=========+=========+=========+=========+============================*
+    *                  CALCULATION PARAMETERS:  PLASMONS                      *
+    *====+=========+=========+=========+=========+============================*
+    *    1        PP       NUM       RPA         I_ANL,V_FL,WF_C,DISP         *
+    *====+=========+=========+=========+=========+============================*
+    *                  CALCULATION PARAMETERS:  TIP                           *
+    *====+=========+=========+=========+=========+============================*
+    *    8        4.2100   ANG         0         NAT,A,UNIT,I_GR              *
+    *  100       10.00                           NPATH,VINT                   *
+    *    1         1         2                   IDWSPH,IATT,IPRINT           *
+    *    0       420.00    293.00      1.20      IMSD,TD,T,RSJ                *
+    * .. 0.01000   0.01000   0.01000   0.01000   UJ2(NAT)                     *
+    * .. 0.01000   0.01000   0.01000   0.01000   UJ2(NAT)                     *
+    *====+=========+=========+=========+=========+============================*
+    *                  INPUT FILES:  SAMPLE CLUSTER                           *
+    *-------------------------------------------------------------------------*
+    *        NAME                    UNIT                TYPE                 *
+    *====+======================+======+=========+============================*
+    *    clus/clus.out                 1         CLUSTER FILE                 *
+    *    ext/uj2_clu.dat               2         UJ2 FILE (TEMPERATURE-DEP.)  *
+    *    ext/corewf.dat                3         CORE WAVE FUNCTION FILE      *
+    *    ext/screened_coul.dat         4         SCREENED COULOMB INT. FILE   *
+    *====+======================+======+=========+============================*
+    *                  INPUT FILES:  INCOMING ELECTRON                        *
+    *-------------------------------------------------------------------------*
+    *        NAME                    UNIT                TYPE                 *
+    *====+======================+======+=========+============================*
+    *    tl/tl_test_in.dat            10         T-MATRIX ELTS FILE           *
+    *    div/dir_test.dat             11         K DIRECTIONS FILE            *
+    *====+======================+======+=========+============================*
+    *                  INPUT FILES:  EXCITED ELECTRON                         *
+    *-------------------------------------------------------------------------*
+    *        NAME                    UNIT                TYPE                 *
+    *====+======================+======+=========+============================*
+    *    tl/tl_test_ex.dat            12         T-MATRIX ELTS FILE           *
+    *    rad/rd_test_MgO.dat          13         RADIAL MATRIX ELTS FILE      *
+    *====+======================+======+=========+============================*
+    *                  INPUT FILES:  OUTGOING ELECTRON                        *
+    *-------------------------------------------------------------------------*
+    *        NAME                    UNIT                TYPE                 *
+    *====+======================+======+=========+============================*
+    *    tl/tl2_Ni.dat                14         T-MATRIX ELTS FILE           *
+    *    rad/rad2_Ni.dat              15         RADIAL MATRIX ELTS FILE      *
+    *    div/dir_testo1.dat           16         K DIRECTIONS FILE            *
+    *====+======================+======+=========+============================*
+    *                  INPUT FILES:  2nd OUTGOING ELECTRON                    *
+    *-------------------------------------------------------------------------*
+    *        NAME                    UNIT                TYPE                 *
+    *====+======================+======+=========+============================*
+    *    tl/tl_testo2.dat             17         T-MATRIX ELTS FILE           *
+    *    rad/rad_testo2.dat           18         RADIAL MATRIX ELTS FILE      *
+    *    div/dir_testo2.dat           10         K DIRECTIONS FILE            *
+    *====+======================+======+=========+============================*
+    *                  INPUT FILES:  3rd OUTGOING ELECTRON                    *
+    *-------------------------------------------------------------------------*
+    *        NAME                    UNIT                TYPE                 *
+    *====+======================+======+=========+============================*
+    *    tl/tl_testo3.dat             20         T-MATRIX ELTS FILE           *
+    *    rad/rad_testo3.dat           21         RADIAL MATRIX ELTS FILE      *
+    *    div/dir_testo3.dat           22         K DIRECTIONS FILE            *
+    *====+=========+=========+=========+=========+============================*
+    *                  INPUT FILES:  TIP CLUSTER                              *
+    *-------------------------------------------------------------------------*
+    *        NAME                    UNIT                TYPE                 *
+    *====+======================+======+=========+============================*
+    *    clus/test.clu                23         CLUSTER FILE                 *
+    *    ext/uj2_clu.dat              24         UJ2 FILE (TEMPERATURE-DEP.)  *
+    *====+=========+=========+=========+=========+============================*
+    *                             OUTPUT FILES:                               *
+    *-------------------------------------------------------------------------*
+    *        NAME                    UNIT                TYPE                 *
+    *====+======================+======+=========+============================*
+    *    spec.lis                      6         CONTROL FILE                 *
+    *    res/res_10000.dat             7         RESULT FILE                  *
+    *    scatfac/facdif1.dat           8         SCATTERING FACTOR FILE       *
+    *    clus/new_clus.clu             9         AUGMENTED CLUSTER FILE       *
+    *====+======================+======+=========+============================*
+    *                          END OF THE DATA FILE                           *
+    *=========================================================================*
+    ***************************************************************************
+
+
+
+    ***************************************************************************
+    *                       MEANING OF THE INPUT VARIABLE                     *
+    ***************************************************************************
+
+
+    **************************************************************************
+    *                           TYPE OF CALCULATION                          *
+    **************************************************************************
+
+
+             CARD N. 1 (SPECTRO,ISPIN,IDICHR,I_AMP)
+                          FORMAT(9X,A3,7X,I1,9X,I1,9X,I1)
+
+    SPECTRO = TYPE OF EXPERIMENT : (=PED) PHOTOELECTRON DIFFRACTION
+                                   (=LED) LEED
+                                   (=XAS) EXAFS OR XANES
+                                   (=AED) AUGER ELECTRON DIFFRACTION
+                                   (=APC) AUGER PHOTOELECTRON COINCIDENCE
+                                   (=E2E) (e,2e) SPECTROSCOPY
+                                   (=E3E) (e,3e) SPECTROSCOPY
+                                   (=ELS) ELECTRON ENERGY LOSS SPECTROSCOPY
+                                   (=RES) RESONANT ELASTIC X-RAY SCATTERING
+                                   (=STM) SCANNING TUNNELING MICROSCOPY
+                                   (=PLS) PHOTOELECTRON ENERGY LOSS SPECTROSCOPY
+                                   (=BEM) BALLISTIC ENERGY ELECTRON MICROSCOPY
+                                   (=EIG) EIGENVALUE CALCULATION
+
+    ISPIN  = SWITCH: (=0) SPIN-INDEPENDENT CALCULATION
+                     (=1) SPIN-POLARIZED CALCULATION
+
+    IDICHR = SWITCH: (=0) NO DICHROIC EFFECT TAKEN INTO ACCOUNT
+                     (=1) NON SPIN-RESOLVED DICHROIC CALCULATION :
+                               ISPIN=0 ====> NATURAL DICHROISM
+                               ISPIN=1 ====> SUM OVER THE SPIN DIRECTIONS
+                     (=2) SPIN-RESOLVED DICHROIC CALCULATION
+
+    I_AMP = SWITCH:  (=0) ONLY INTENSITY COMPUTED (STANDARD CALCULATION)
+                     (=1) AMPLITUDE ALSO COMPUTED (INTENSITY = |AMPLITUDE|^2)
+
+
+    **************************************************************************
+    *                 PHOTOELECTRON DIFFRACTION PARAMETERS                   *
+    **************************************************************************
+
+
+             CARD N. 1  (LI, S_O, SELRULE, I_SO)
+                         FORMAT(8X,I1,A1,8X,A3,4X,A5,8X,I2)
+
+    LI     = INITIAL NL STATE (EX.: 2s, 2p, 3d). **  WARNING  ** : ALWAYS MAKE
+               SURE THAT THIS VALUE IS CONSISTENT WITH THAT OF L_INIT_M IN THE
+               INCLUDE FILE.
+
+    S_O    = VALUE OF THE SPIN-ORBIT COMPONENT SELECTED AS THE INITIAL STATE
+               (EX. : 3/2, 5/2, ...)
+               (=0) : THE FULL CORE STATE IS TAKEN INTO ACCOUNT
+
+    SELRULE= SWITCH TO SELECT THE CHANNELS IN THE FINAL STATE.
+               IT IS A FIVE-CHARACTER STRING OF 0/1 DIGITS THAT READS
+               AS: E1 E2 E3 M1 M2
+               0 MEANS CORRESPONDING MATRIX ELEMENTS NOT CONSIDERED
+               1 MEANS CORRESPONDING MATRIX ELEMENTS COMPUTED
+               EX. : 10000       ---> ONLY DIPOLE TERM E1 COMPUTED
+                     11000       ---> E1 + E2 COMPUTED
+               SINGLE (DOMINANT) CHANNEL CASE:
+                     +1>E1       ---> ONLY +1 CHANNEL OF E1
+                     -1>E3       ---> ONLY -1 CHANNEL OF E3
+               EXCEPTIONS:
+                     20000       ---> CORRECTION TERM FOR E1 ALSO TAKEN INTO ACCOUNT
+                     00000       ---> TEST CASE: NO MATRIX ELEMENTS COMPUTED
+
+
+    I_SO   = SWITCH CONTROLLING THE SPIN-ORBIT
+               (=0) NO SPIN-ORBIT TAKEN INTO ACCOUNT
+               (=1) ONLY THE COMPONENT 'S_O' IS TAKEN INTO ACCOUNT
+               (=2) BOTH SPIN-ORBIT COMPONENTS ARE TAKEN INTO ACCOUNT
+
+
+             CARD N. 2 (IPHI,NPHI,PHI0,PHI1)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    IPHI   = SWITCH: (=1) TO GENERATE AN AZIMUTHAL SPECTRUM;
+                     (=2) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                     (=3) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                             AND THERE IS AN AVERAGING OVER DOMAINS.
+                             ANGLES AND WEIGHTS ARE GENERATED BY
+                             THE ext_dir.f CODE.
+                     (=-1) FOR A STEREOSCOPIC PLOT OVER 2*PI.THE PHI
+                             STEP DEPENDS ON THETA TO OBTAIN A UNIFORM
+                             SAMPLING DENSITY OVER THE HEMISHERE.
+                     (=0) OTHERWISE
+
+    NPHI   = NUMBER OF PHI POINTS
+
+    PHI0   = INITIAL PHI VALUE (DEGREES)
+
+    PHI1   = FINAL PHI VALUE (DEGREES)
+
+
+             CARD N. 3 (ITHETA,NTHETA,THETA0,THETA1)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    ITHETA = SWITCH: (=1) TO GENERATE A POLAR SPECTRUM;
+                     (=2) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                     (=3) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                             AND THERE IS AN AVERAGING OVER DOMAINS.
+                             ANGLES AND WEIGHTS ARE GENERATED BY
+                             THE ext_dir.f CODE.
+                     (=0) OTHERWISE
+
+    NTHETA = NUMBER OF THETA POINTS
+
+    THETA0 = INITIAL THETA VALUE (DEGREES)
+
+    THETA1 = FINAL THETA VALUE (DEGREES)
+
+             CARD N. 4 (IE,NE,E0,E1)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    IE     = SWITCH: (=1) TO GENERATE AN ENERGY SPECTRUM;
+                     (=2) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                     (=3) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                             AND THERE IS AN AVERAGING OVER DOMAINS.
+                             ANGLES AND WEIGHTS ARE GENERATED BY
+                             THE ext_dir.f CODE.
+                     (=4) TO GENERATE AN ENERGY SPECTRUM BY SUMMING
+                             (WITH WEIGHTS) OVER POSITIONS OF THE
+                              DETECTOR. THESE POSITIONS ARE READ,
+                              TOGETHER WITH THEIR RESPECTIVE WEIGHTS,
+                              FROM AN EXTERNAL INPUT FILE.
+                     (=0) OTHERWISE
+
+    NE     = NUMBER OF ENERGY POINTS.  **  WARNING  ** :
+               IT MUST BE SMALLER OR EQUAL TO THE VALUE OF NE_M GIVEN IN THE
+               INCLUDE FILE, AND EQUAL TO THE VALUE GIVEN IN THE T-MATRIX FILE
+
+    E0     = INITIAL VALUE FOR THE EXTERNAL KINETIC ENERGY (eV)
+
+    E1     = FINAL VALUE FOR THE EXTERNAL KINETIC ENERGY (eV)
+
+
+             CARD N. 5 (IFTHET,NFTHET,R0,R1)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    IFTHET = SWITCH: (=1) TO GENERATE A SCATTERING FACTOR FOR THE NAT
+             PROTOTYPICAL ATOMS IN SW (SPHERICAL WAVE) OR PW (PLANE WAVE);
+             NO PHD SPECTRUM CALCULATED
+                     (=0) OTHERWISE.
+
+    NFTHET = NUMBER OF THETA POINTS IN THE SCATTERING FACTOR
+
+    R0     = DISTANCE OF PHOTOABSORBER TO THE SCATTERING ATOM WHEN
+             IFTHET = 1, IN UNIT OF A (R0 = -1.0 REPRESENTS AN INFINITE
+             DISTANCE). USED ONLY FOR A SW CALCULATION OF THE SCATTERING
+             FACTOR.
+
+    R1     = DISTANCE OF THE SCATTERING ATOM TO THE NEXT ATOM OR THE
+             ANALYZER, WHEN IFTHET = 1, IN UNIT OF A (R1 = -1.0 REPRESENTS
+             AN INFINITE DISTANCE). USED ONLY FOR A SW CALCULATION OF THE
+             SCATTERING
+             FACTOR.
+
+
+             CARD N. 6 (THLUM,PHILUM,ELUM,IPOL)
+                       FORMAT(6X,F7.2,3X,F7.2,3X,F7.2,5X,I2)
+
+
+    THLUM  = POLAR ANGLE OF THE INCIDENT LIGHT VECTOR (DEGREES)
+
+    PHILUM = AZIMUTHAL ANGLE OF THE INCIDENT LIGHT VECTOR (DEGREES)
+
+            *** WARNING *** : (THLUM,PHILUM) IS THE POSITION OF THE LIGHT WHEN
+                              THE DETECTOR IS ALONG THE NORMAL TO THE SURFACE
+                              FOR THE CASE IMOD =1 (SEE BELOW)
+
+    ELUM   = INITIAL VALUE FOR THE PHOTON ENERGY (eV)
+
+    IPOL   = SWITCH: (= 0)  NON POLARIZED LIGHT
+                     (= 1)  LINEARLY POLARIZED LIGHT (POLAR. IN LIGHT0z PLANE)
+                     (=-1)  LINEARLY POLARIZED LIGHT (POLAR. IN x0y PLANE)
+                     (= 2)  CIRCULARLY POLARIZED LIGHT ====> DICHROISM
+
+
+             CARD N. 7 (IMOD,IMOY,ACCEPT,ICHKDIR)
+                       FORMAT(9X,I1,9X,I1,8X,F5.2)
+
+    IMOD   = SWITCH  FOR ANGULAR COLLECTION OF DATA:
+                     (=1) THE SAMPLE IS ROTATED;
+                     (=0) THE ANALYZER IS ROTATED
+
+    IMOY   = SWITCH FOR AVERAGING OVER THE ANGULAR ACCEPTANCE OF THE ANALYZER:
+               (=0) NO AVERAGING
+               (=1) AVERAGING OVER FIVE DIRECTIONS
+               (=2) AVERAGING OVER THIRTEEN DIRECTIONS
+               (=3) AVERAGING OVER FORTYNINE DIRECTIONS
+
+    ACCEPT = ANGULAR ACCEPTANCE IN DEGREES FOR AVERAGING
+
+    ICHKDIR= SWITCH USED TO CHECK THE DIRECTION OF THE ANALYZER WHEN THERE MIGHT
+             BE AN INACCURACY IN ITS MEASURE
+                (=0) NO CHECK
+                (=1) CALCULATION DONE FOR ANGLE = ANGLE0 +/- 1,2,3 AND 4 DEGREES
+                     WHERE ANGLE0 IS THE ANGLE OF THE INITIAL DIRECTION OF THE
+                     ANALYZER THAT IS NOT MOVED IN THE EXPERIMENT (I. E. PHI IF
+                     ITHETA=1 AND THETA IF IPHI=1)
+                (=2) USED WHEN GAUSSIAN AVERAGING OVER SEVERAL DOMAINS (IPHI OR
+                     ITHETA = 2  ---> EXTERNAL ANGLES). AS IN THIS CASE THE
+                     CALCULATION WILL PERFORM A WEIGHTED AVERAGE OVER SEVERAL
+                     SETS OF ANGLES, THIS VALUE OF THE SWITCH WILL STORE AS
+                     WELL THE RESULTS FOR THE DOMINANT SET (TOP OF THE GAUSSIAN)
+
+
+
+    **************************************************************************
+    *                            LEED PARAMETERS                             *
+    **************************************************************************
+
+
+             CARD N. 1 (IPHI,NPHI,PHI0,PHI1)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    IPHI   = SWITCH: (=1) TO GENERATE AN AZIMUTHAL SPECTRUM;
+                     (=2) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                     (=3) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                             AND THERE IS AN AVERAGING OVER DOMAINS.
+                             ANGLES AND WEIGHTS ARE GENERATED BY
+                             THE ext_dir.f CODE.
+                     (=-1) FOR A STEREOSCOPIC PLOT OVER 2*PI.THE PHI
+                             STEP DEPENDS ON THETA TO OBTAIN A UNIFORM
+                             SAMPLING DENSITY OVER THE HEMISPHERE.
+                     (=0) OTHERWISE
+
+    NPHI   = NUMBER OF PHI POINTS
+
+    PHI0   = INITIAL PHI VALUE (DEGREES)
+
+    PHI1   = FINAL PHI VALUE (DEGREES)
+
+
+             CARD N. 2 (ITHETA,NTHETA,THETA0,THETA1)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    ITHETA = SWITCH: (=1) TO GENERATE A POLAR SPECTRUM;
+                     (=2) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                     (=3) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                             AND THERE IS AN AVERAGING OVER DOMAINS.
+                             ANGLES AND WEIGHTS ARE GENERATED BY
+                             THE ext_dir.f CODE.
+                     (=0) OTHERWISE
+
+    NTHETA = NUMBER OF THETA POINTS
+
+    THETA0 = INITIAL THETA VALUE (DEGREES)
+
+    THETA1 = FINAL THETA VALUE (DEGREES)
+
+             CARD N. 3 (IE,NE,E0,E1)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    IE     = SWITCH: (=1) TO GENERATE AN ENERGY SPECTRUM;
+                     (=2) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                     (=3) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                             AND THERE IS AN AVERAGING OVER DOMAINS.
+                             ANGLES AND WEIGHTS ARE GENERATED BY
+                             THE ext_dir.f CODE.
+                     (=4) TO GENERATE AN ENERGY SPECTRUM BY SUMMING
+                             (WITH WEIGHTS) OVER POSITIONS OF THE
+                              DETECTOR. THESE POSITIONS ARE READ,
+                              TOGETHER WITH THEIR RESPECTIVE WEIGHTS,
+                              FROM AN EXTERNAL INPUT FILE.
+                     (=0) OTHERWISE
+
+    NE     = NUMBER OF ENERGY POINTS.  **  WARNING  ** :
+               IT MUST BE SMALLER OR EQUAL TO THE VALUE OF NE_M GIVEN IN THE
+               INCLUDE FILE, AND EQUAL TO THE VALUE GIVEN IN THE T-MATRIX FILE
+
+    E0     = INITIAL VALUE FOR THE EXTERNAL KINETIC ENERGY (eV)
+
+    E1     = FINAL VALUE FOR THE EXTERNAL KINETIC ENERGY (eV)
+
+
+             CARD N. 4 (IFTHET,NFTHET,R0,R1)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    IFTHET = SWITCH: (=1) TO GENERATE A SCATTERING FACTOR FOR THE NAT
+             PROTOTYPICAL ATOMS IN SW (SPHERICAL WAVE) OR PW (PLANE WAVE);
+             NO PHD SPECTRUM CALCULATED
+                     (=0) OTHERWISE.
+
+    NFTHET = NUMBER OF THETA POINTS IN THE SCATTERING FACTOR
+
+    R0     = DISTANCE OF PHOTOABSORBER TO THE SCATTERING ATOM WHEN
+             IFTHET = 1, IN UNIT OF A (R0 = -1.0 REPRESENTS AN INFINITE
+             DISTANCE). USED ONLY FOR A SW CALCULATION OF THE SCATTERING
+             FACTOR.
+
+    R1     = DISTANCE OF THE SCATTERING ATOM TO THE NEXT ATOM OR THE
+             ANALYZER, WHEN IFTHET = 1, IN UNIT OF A (R1 = -1.0 REPRESENTS
+             AN INFINITE DISTANCE). USED ONLY FOR A SW CALCULATION OF THE
+             SCATTERING
+             FACTOR.
+
+
+             CARD N. 5 (TH_INI,PHI_INI)
+                       FORMAT(6X,F7.2,3X,F7.2)
+
+
+    TH_INI  = POLAR ANGLE OF THE INCIDENT ELECTRON BEAM (DEGREES)
+
+    PHI_INI = AZIMUTHAL ANGLE OF THE INCIDENT ELECTRON BEAM (DEGREES)
+
+
+
+             CARD N. 6 (IMOD,IMOY,ACCEPT,ICHKDIR)
+                       FORMAT(9X,I1,9X,I1,8X,F5.2)
+
+    IMOD   = SWITCH  FOR ANGULAR COLLECTION OF DATA:
+                     (=1) THE SAMPLE IS ROTATED;
+                     (=0) THE ANALYZER IS ROTATED
+
+    IMOY   = SWITCH FOR AVERAGING OVER THE ANGULAR ACCEPTANCE OF THE ANALYZER:
+               (=0) NO AVERAGING
+               (=1) AVERAGING OVER FIVE DIRECTIONS
+               (=2) AVERAGING OVER THIRTEEN DIRECTIONS
+               (=3) AVERAGING OVER FORTYNINE DIRECTIONS
+
+    ACCEPT = ANGULAR ACCEPTANCE IN DEGREES FOR AVERAGING
+
+    ICHKDIR= SWITCH USED TO CHECK THE DIRECTION OF THE ANALYZER WHEN THERE MIGHT
+             BE AN INACCURACY IN ITS MEASURE
+                (=0) NO CHECK
+                (=1) CALCULATION DONE FOR ANGLE = ANGLE0 +/- 1,2,3 AND 4 DEGREES
+                     WHERE ANGLE0 IS THE ANGLE OF THE INITIAL DIRECTION OF THE
+                     ANALYZER THAT IS NOT MOVED IN THE EXPERIMENT (I. E. PHI IF
+                     ITHETA=1 AND THETA IF IPHI=1)
+                (=2) USED WHEN GAUSSIAN AVERAGING OVER SEVERAL DOMAINS (IPHI OR
+                     ITHETA = 2  ---> EXTERNAL ANGLES). AS IN THIS CASE THE
+                     CALCULATION WILL PERFORM A WEIGHTED AVERAGE OVER SEVERAL
+                     SETS OF ANGLES, THIS VALUE OF THE SWITCH WILL STORE AS
+                     WELL THE RESULTS FOR THE DOMINANT SET (TOP OF THE GAUSSIAN)
+
+
+
+    **************************************************************************
+    *                           EXAFS PARAMETERS                             *
+    **************************************************************************
+
+
+             CARD N. 1 (EDGE,INITL)
+                       FORMAT(8X,A1,I1,4X,A5)
+
+    EDGE   = EDGE USED FOR THE XAS CALCULATION : K1,L1,L2,M1,M2,M3,M4,...
+             (NOTE THAT THE 1s EDGE SHOULD BE WRITTEN EITHER 'K1' OR 'K ')
+
+    SELRULE= SWITCH TO SELECT THE CHANNELS IN THE FINAL STATE.
+               IT IS A FIVE-CHARACTER STRING OF 0/1 DIGITS THAT READS
+               AS: E1 E2 E3 M1 M2
+               0 MEANS CORRESPONDING MATRIX ELEMENTS NOT CONSIDERED
+               1 MEANS CORRESPONDING MATRIX ELEMENTS COMPUTED
+               EX. : 10000       ---> ONLY DIPOLE TERM E1 COMPUTED
+                     11000       ---> E1 + E2 COMPUTED
+               SINGLE (DOMINANT) CHANNEL CASE:
+                     +1>E1       ---> ONLY +1 CHANNEL OF E1
+                     -1>E3       ---> ONLY -1 CHANNEL OF E3
+               EXCEPTIONS:
+                     20000       ---> CORRECTION TERM FOR E1 ALSO TAKEN INTO ACCOUNT
+                     00000       ---> TEST CASE: NO MATRIX ELEMENTS COMPUTED
+
+
+             CARD N. 2 (THLUM,PHILUM,IPOL)
+                       FORMAT(6X,F7.2,3X,F7.2,5X,I2)
+
+    THLUM  = POLAR ANGLE OF THE INCIDENT LIGHT VECTOR (DEGREES)
+
+    PHILUM = AZIMUTHAL ANGLE OF THE INCIDENT LIGHT VECTOR (DEGREES)
+
+    IPOL   = SWITCH: (= 0)  NON POLARIZED LIGHT
+                     (= 1)  LINEARLY POLARIZED LIGHT (POLAR. IN LIGHT0z PLANE)
+                     (=-1)  LINEARLY POLARIZED LIGHT (POLAR. IN x0y PLANE)
+                     (= 2)  CIRCULARLY POLARIZED LIGHT ====> DICHROISM
+
+
+
+             CARD N. 3 (NE,EK_INI,EK_FIN,EPH_INI)
+                        FORMAT(7X,I3,6X,F7.2,3X,F7.2,3X,F7.2)
+
+    NE     = NUMBER OF ENERGY POINTS
+
+    EK_INI = INITIAL VALUE OF THE KINETIC ENERGY (IN eV)
+
+    EK_FIN = FINAL VALUE OF THE KINETIC ENERGY (IN eV)
+
+    EPH_INI= INITIAL VALUE FOR THE PHOTON ENERGY (eV)
+
+
+
+    **************************************************************************
+    *                           AUGER PARAMETERS                             *
+    **************************************************************************
+
+
+             CARD N. 1 (EDGE_C,EDGE_1,EDGE_2)
+                       FORMAT(8X,A1,I1,8X,A1,I1,8X,A1,I1)
+
+    EDGE_C = EDGE FOR THE CORE ELECTRON : K1,L1,L2,M1,M2,M3,M4,...
+             (NOTE THAT THE 1s EDGE SHOULD BE WRITTEN EITHER 'K1' OR 'K ')
+
+    EDGE_I = EDGE FOR THE ELECTRON FILLING THE CORE HOLE : K1,L1,L2,M1,M2,M3,M4,...
+             (NOTE THAT THE 1s EDGE SHOULD BE WRITTEN EITHER 'K1' OR 'K ')
+
+    EDGE_A = EDGE FOR THE AUGER ELECTRON : K1,L1,L2,M1,M2,M3,M4,...
+             (NOTE THAT THE 1s EDGE SHOULD BE WRITTEN EITHER 'K1' OR 'K ')
+
+
+
+             CARD N. 2 (I_MULT,MULT)
+                       FORMAT(9X,I1,8X,I1,A1,I1)
+
+    I_MULT = SWITCH: (=0) FULL AUGER LINE TAKEN INTO ACCOUNT
+                     (=1) ONE MULTIPLET TAKEN INTO ACCOUNT ONLY
+
+    MULT   = MULTIPLET PEAK CONSIDERED IN RUSSEL-SAUNDERS NOTATION
+                     (1S0,3P1,1D2, ... THE INNER LETTER MUST BE IN CAPITALS)
+
+
+             CARD N. 3 (IPHI,NPHI,PHI0,PHI1)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    IPHI   = SWITCH: (=1) TO GENERATE AN AZIMUTHAL SPECTRUM;
+                     (=2) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                     (=3) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                             AND THERE IS AN AVERAGING OVER DOMAINS.
+                             ANGLES AND WEIGHTS ARE GENERATED BY
+                             THE ext_dir.f CODE.
+                     (=-1) FOR A STEREOSCOPIC PLOT OVER 2*PI.THE PHI
+                             STEP DEPENDS ON THETA TO OBTAIN A UNIFORM
+                             SAMPLING DENSITY OVER THE HEMISPHERE.
+                     (=0) OTHERWISE
+
+    NPHI   = NUMBER OF PHI POINTS
+
+    PHI0   = INITIAL PHI VALUE (DEGREES)
+
+    PHI1   = FINAL PHI VALUE (DEGREES)
+
+
+             CARD N. 4 (ITHETA,NTHETA,THETA0,THETA1)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    ITHETA = SWITCH: (=1) TO GENERATE A POLAR SPECTRUM;
+                     (=2) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                     (=3) IDEM BUT THE ANGLES ARE READ EXTERNALLY
+                             AND THERE IS AN AVERAGING OVER DOMAINS.
+                             ANGLES AND WEIGHTS ARE GENERATED BY
+                             THE ext_dir.f CODE.
+                     (=0) OTHERWISE
+
+    NTHETA = NUMBER OF THETA POINTS
+
+    THETA0 = INITIAL THETA VALUE (DEGREES)
+
+    THETA1 = FINAL THETA VALUE (DEGREES)
+
+
+             CARD N. 5 (IFTHET,NFTHET,R0,R1)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    IFTHET = SWITCH: (=1) TO GENERATE A SCATTERING FACTOR FOR THE NAT
+             PROTOTYPICAL ATOMS IN SW (SPHERICAL WAVE) OR PW (PLANE WAVE);
+             NO PHD SPECTRUM CALCULATED
+                     (=0) OTHERWISE.
+
+    NFTHET = NUMBER OF THETA POINTS IN THE SCATTERING FACTOR
+
+    R0     = DISTANCE OF PHOTOABSORBER TO THE SCATTERING ATOM WHEN
+             IFTHET = 1, IN UNIT OF A (R0 = -1.0 REPRESENTS AN INFINITE
+             DISTANCE). USED ONLY FOR A SW CALCULATION OF THE SCATTERING
+             FACTOR.
+
+    R1     = DISTANCE OF THE SCATTERING ATOM TO THE NEXT ATOM OR THE
+             ANALYZER, WHEN IFTHET = 1, IN UNIT OF A (R1 = -1.0 REPRESENTS
+             AN INFINITE DISTANCE). USED ONLY FOR A SW CALCULATION OF THE
+             SCATTERING
+             FACTOR.
+
+             CARD N. 6 (I_INT)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    I_INT  = SWITCH  (=0) NO INTEGRATION OVER THE DETECTOR DIRECTION TO
+                          ACCOUNT FOR AN UNDETECTED ELECTRON
+                     (=1) INTEGRATION OVER THE PHOTOELECTRON
+                     (=2) INTEGRATION OVER THE AUGER ELECTRON
+                     (=3) INTEGRATION OVER BOTH ELECTRONS
+
+                     *** WARNING *** : THIS SWITCH IS FOR APECS ONLY
+                                       FOR PHOTOELECTRON DIFFRACTION,
+                                       SET IE TO 3
+
+             CARD N. 7 (IMOD,IMOY,ACCEPT,ICHKDIR)
+                       FORMAT(9X,I1,9X,I1,8X,F5.2)
+
+    IMOD   = SWITCH  FOR ANGULAR COLLECTION OF DATA:
+                     (=1) THE SAMPLE IS ROTATED;
+                     (=0) THE ANALYZER IS ROTATED
+
+    IMOY   = SWITCH FOR AVERAGING OVER THE ANGULAR ACCEPTANCE OF THE ANALYZER:
+               (=0) NO AVERAGING
+               (=1) AVERAGING OVER FIVE DIRECTIONS
+               (=2) AVERAGING OVER THIRTEEN DIRECTIONS
+               (=3) AVERAGING OVER FORTYNINE DIRECTIONS
+
+    ACCEPT = ANGULAR ACCEPTANCE IN DEGREES FOR AVERAGING
+
+    ICHKDIR= SWITCH USED TO CHECK THE DIRECTION OF THE ANALYZER WHEN THERE MIGHT
+             BE AN INACCURACY IN ITS MEASURE
+                (=0) NO CHECK
+                (=1) CALCULATION DONE FOR ANGLE = ANGLE0 +/- 1,2,3 AND 4 DEGREES
+                     WHERE ANGLE0 IS THE ANGLE OF THE INITIAL DIRECTION OF THE
+                     ANALYZER THAT IS NOT MOVED IN THE EXPERIMENT (I. E. PHI IF
+                     ITHETA=1 AND THETA IF IPHI=1)
+                (=2) USED WHEN GAUSSIAN AVERAGING OVER SEVERAL DOMAINS (IPHI OR
+                     ITHETA = 2  ---> EXTERNAL ANGLES). AS IN THIS CASE THE
+                     CALCULATION WILL PERFORM A WEIGHTED AVERAGE OVER SEVERAL
+                     SETS OF ANGLES, THIS VALUE OF THE SWITCH WILL STORE AS
+                     WELL THE RESULTS FOR THE DOMINANT SET (TOP OF THE GAUSSIAN)
+
+
+
+
+    **************************************************************************
+    *                           EELS PARAMETERS                              *
+    **************************************************************************
+
+             CARD N. 1  (LI, S_O, ISELRULE, I_SO)
+                         FORMAT(8X,I1,A1,8X,A3,7X,I2,9X,I1)
+
+    LI     = INITIAL NL STATE (EX.: 2s, 2p, 3d). **  WARNING  ** : ALWAYS MAKE
+               SURE THAT THIS VALUE IS CONSISTENT WITH THAT OF L_INIT_M IN THE
+               INCLUDE FILE.
+
+    S_O    = VALUE OF THE SPIN-ORBIT COMPONENT SELECTED AS THE INITIAL STATE
+               (EX. : 3/2, 5/2, ...)
+               (=0) : THE FULL CORE STATE IS TAKEN INTO ACCOUNT
+
+    ISELRULE  = SWITCH TO SELECT THE CHANNELS IN THE FINAL STATE:
+                L-CUT-OFF OF THE COULOMB POTENTIAL EXPANSION
+
+    I_SO   = SWITCH CONTROLLING THE SPIN-ORBIT
+               (=0) NO SPIN-ORBIT TAKEN INTO ACCOUNT
+               (=1) ONLY THE COMPONENT 'S_O' IS TAKEN INTO ACCOUNT
+               (=2) BOTH SPIN-ORBIT COMPONENTS ARE TAKEN INTO ACCOUNT
+
+
+             CARD N. 2  (TH_INI, PHI_INI, MODE, CS_TYPE)
+                         FORMAT(6X,F7.2,3X,F7.2,4X,A3,6X,A4)
+
+    TH_INI  = VALUE OF THE THETA POSITION OF THE INCOMING BEAM
+
+    PHI_INI = VALUE OF THE PHI POSITION OF THE INCOMING BEAM
+
+    MODE    = CALCULATION MODE
+               (=CEL) CONSTANT ENERGY LOSS. ENERGY VARIATIONS FOR
+                      INCOMING AND SCATTERED BEAM
+               (=CIS) CONSTANT INITIAL STATE. ENERGY VARIATIONS FOR
+                      SCATTERED BEAM AND LOSS ELECTRON
+               (=CFS) CONSTANT FINAL STATE. ENERGY VARIATIONS FOR
+                      INCOMING BEAM AND LOSS ELECTRON
+               (=THE) VARIATIONS OF POLAR ANGLE OF SCATTERED BEAM
+               (=PHI) VARIATIONS OF AZIMUTHAL ANGLE OF SCATTERED BEAM
+               (=FUL) FULL ANGLE VARIATIONS OF SCATTERED BEAM
+
+    CS_TYPE = TYPE OF APPROXIMATION FOR THE CROSS-SECTION
+               (=BRIG) BRIGGS FIRST ORDER APPRXIMATION
+               (=DWBA) DWBA FIRST ORDER APPRXIMATION
+               (=PLWA) PLANE WAVE APPROXIMATION FOR INCOMING AND
+                       OUTGOING BEAMS
+
+
+             CARD N. 3  (NE,E_RANGE)
+                         FORMAT(6X,I3,3X,F7.2)
+
+     NE      = NUMBER OF ENERGY POINTS FOR ENERGY VARIATIONS
+     E_RANGE = ENERGY RANGE (IN eV) (I.E. E_MAX-E_MIN)
+
+
+             CARD N. 4  (E_IN0,E_SC0,E_EJ0)
+                         FORMAT(6X,F7.2,3X,F7.2,3X,F7.2)
+
+     E_IN0  = INITIAL ENERGY FOR THE INCOMING BEAM (eV)
+
+     E_SC0  = INITIAL ENERGY FOR THE SCATTERED BEAM (eV)
+
+     E_EJ0  = INITIAL ENERGY FOR THE EJECTED ELECTRON (eV)
+
+
+             CARD N. 5  (NTH_SC,TH_SC0,TH_SC)
+                         FORMAT(7X,I3,6X,F7.2,3X,F7.2)
+
+     NTH_SC = NUMBER OF THETA POINTS FOR THE SCATTERED BEAM
+
+     TH_SC0 = INITIAL VALUE OF THETA FOR THE SCATTERED BEAM
+
+     TH_SC1 = FINAL VALUE OF THETA FOR THE SCATTERED BEAM
+
+
+             CARD N. 6  (NPHI_SC,PHI_SC0,PHI_SC)
+                         FORMAT(7X,I3,6X,F7.2,3X,F7.2)
+
+     NPHI_SC = NUMBER OF PHI POINTS FOR THE SCATTERED BEAM
+
+     PHI_SC0 = INITIAL VALUE OF PHI FOR THE SCATTERED BEAM
+
+     PHI_SC1 = FINAL VALUE OF PHI FOR THE SCATTERED BEAM
+
+
+             CARD N. 7 (I_INT)
+                       FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    I_INT  = SWITCH  (=0) NO INTEGRATION OVER THE DETECTOR DIRECTION TO
+                          ACCOUNT FOR AN UNDETECTED ELECTRON
+                     (=1) INTEGRATION OVER THE PHOTOELECTRON
+                     (=2) INTEGRATION OVER THE AUGER ELECTRON
+                     (=3) INTEGRATION OVER BOTH ELECTRONS
+
+                     *** WARNING *** : THIS SWITCH IS FOR APECS ONLY
+                                       FOR PHOTOELECTRON DIFFRACTION,
+                                       SET IE TO 3
+
+             CARD N. 8 (IMOD,IMOY,ACCEPT,ICHKDIR)
+                       FORMAT(9X,I1,9X,I1,8X,F5.2)
+
+    IMOD   = SWITCH  FOR ANGULAR COLLECTION OF DATA:
+                     (=1) THE SAMPLE IS ROTATED;
+                     (=0) THE ANALYZER IS ROTATED
+
+    IMOY   = SWITCH FOR AVERAGING OVER THE ANGULAR ACCEPTANCE OF THE ANALYZER:
+               (=0) NO AVERAGING
+               (=1) AVERAGING OVER FIVE DIRECTIONS
+               (=2) AVERAGING OVER THIRTEEN DIRECTIONS
+               (=3) AVERAGING OVER FORTYNINE DIRECTIONS
+
+    ACCEPT = ANGULAR ACCEPTANCE IN DEGREES FOR AVERAGING
+
+    ICHKDIR= SWITCH USED TO CHECK THE DIRECTION OF THE ANALYZER WHEN THERE MIGHT
+             BE AN INACCURACY IN ITS MEASURE
+                (=0) NO CHECK
+                (=1) CALCULATION DONE FOR ANGLE = ANGLE0 +/- 1,2,3 AND 4 DEGREES
+                     WHERE ANGLE0 IS THE ANGLE OF THE INITIAL DIRECTION OF THE
+                     ANALYZER THAT IS NOT MOVED IN THE EXPERIMENT (I. E. PHI IF
+                     ITHETA=1 AND THETA IF IPHI=1)
+                (=2) USED WHEN GAUSSIAN AVERAGING OVER SEVERAL DOMAINS (IPHI OR
+                     ITHETA = 2  ---> EXTERNAL ANGLES). AS IN THIS CASE THE
+                     CALCULATION WILL PERFORM A WEIGHTED AVERAGE OVER SEVERAL
+                     SETS OF ANGLES, THIS VALUE OF THE SWITCH WILL STORE AS
+                     WELL THE RESULTS FOR THE DOMINANT SET (TOP OF THE GAUSSIAN)
+
+
+
+
+
+
+
+    **************************************************************************
+    *                           (E,2E) PARAMETERS                            *
+    **************************************************************************
+
+             CARD N. 1  (LI, S_O, ISELRULE, I_SO)
+                         FORMAT(8X,I1,A1,8X,A3,7X,I2,9X,I1)
+
+    LI     = INITIAL NL STATE (EX.: 2s, 2p, 3d). **  WARNING  ** : ALWAYS MAKE
+               SURE THAT THIS VALUE IS CONSISTENT WITH THAT OF L_INIT_M IN THE
+               INCLUDE FILE.
+
+    S_O    = VALUE OF THE SPIN-ORBIT COMPONENT SELECTED AS THE INITIAL STATE
+               (EX. : 3/2, 5/2, ...)
+               (=0) : THE FULL CORE STATE IS TAKEN INTO ACCOUNT
+
+    ISELRULE  = SWITCH TO SELECT THE CHANNELS IN THE FINAL STATE:
+                L-CUT-OFF OF THE COULOMB POTENTIAL EXPANSION
+
+    I_SO   = SWITCH CONTROLLING THE SPIN-ORBIT
+               (=0) NO SPIN-ORBIT TAKEN INTO ACCOUNT
+               (=1) ONLY THE COMPONENT 'S_O' IS TAKEN INTO ACCOUNT
+               (=2) BOTH SPIN-ORBIT COMPONENTS ARE TAKEN INTO ACCOUNT
+
+
+
+
+
+
+
+    **************************************************************************
+    *                           REXS PARAMETERS                              *
+    **************************************************************************
+
+
+             CARD N. 1 (EDGE,IE,IPHI)
+                       FORMAT(8X,A1,I1,9X,I1,9X,I1)
+
+    EDGE   = EDGE USED FOR THE XAS CALCULATION : K1,L1,L2,M1,M2,M3,M4,...
+             (NOTE THAT THE 1s EDGE SHOULD BE WRITTEN EITHER 'K1' OR 'K ')
+
+    IPHI   = SWITCH: (=1) TO GENERATE AN AZIMUTHAL SPECTRUM;
+                     (=0) OTHERWISE
+
+    IE     = SWITCH: (=1) TO GENERATE AN ENERGY SPECTRUM;
+                     (=0) OTHERWISE
+
+
+             CARD N. 2 (THLUM_I,PHILUM_I,IPOL_I,ISR_I)
+                       FORMAT(6X,F7.2,3X,F7.2,5X,I2,5X,A5)
+
+    THLUM_I  = POLAR ANGLE OF THE INCIDENT LIGHT VECTOR (DEGREES)
+
+    PHILUM_I = AZIMUTHAL ANGLE OF THE INCIDENT LIGHT VECTOR (DEGREES)
+
+    IPOL_I   = SWITCH: POLARIZATION OF THE INCIDENT BEAM
+                 (= 0)  NON POLARIZED LIGHT
+                 (= 1)  LINEARLY POLARIZED LIGHT (POLAR. IN LIGHT0z PLANE)
+                 (=-1)  LINEARLY POLARIZED LIGHT (POLAR. IN x0y PLANE)
+                 (= 2)  CIRCULARLY POLARIZED LIGHT ====> DICHROISM
+
+    CSR_I    = SWITCH: TO SELECT THE CHANNELS FOR THE EXCITATION PROCESS:
+                         (INITIAL STATE ---> INTERMEDIATE STATE)
+               IT IS A FIVE-CHARACTER STRING OF 0/1 DIGITS THAT READS
+               AS: E1 E2 E3 M1 M2
+               0 MEANS CORRESPONDING MATRIX ELEMENTS NOT CONSIDERED
+               1 MEANS CORRESPONDING MATRIX ELEMENTS COMPUTED
+               EX. : 10000       ---> ONLY DIPOLE TERM E1 COMPUTED
+                     11000       ---> E1 + E2 COMPUTED
+               SINGLE (DOMINANT) CHANNEL CASE:
+                     +1>E1       ---> ONLY +1 CHANNEL OF E1
+                     -1>E3       ---> ONLY -1 CHANNEL OF E3
+               EXCEPTIONS:
+                     20000       ---> CORRECTION TERM FOR E1 ALSO TAKEN INTO ACCOUNT
+                     00000       ---> TEST CASE: NO MATRIX ELEMENTS COMPUTED
+
+
+             CARD N. 3 (THLUM_O,PHILUM_O,IPOL_O,ISR_O)
+                       FORMAT(6X,F7.2,3X,F7.2,5X,I2,8X,I2)
+
+    THLUM_O  = POLAR ANGLE OF THE OUTGOING LIGHT VECTOR (DEGREES)
+
+    PHILUM_O = AZIMUTHAL ANGLE OF THE OUTGOING LIGHT VECTOR (DEGREES)
+
+    IPOL_O   = SWITCH: POLARIZATION OF THE OUTGOING BEAM
+                 (= 0)  NON POLARIZED LIGHT
+                 (= 1)  LINEARLY POLARIZED LIGHT (POLAR. IN LIGHT0z PLANE)
+                 (=-1)  LINEARLY POLARIZED LIGHT (POLAR. IN x0y PLANE)
+                 (= 2)  CIRCULARLY POLARIZED LIGHT ====> DICHROISM
+
+    CSR_O    = SWITCH: TO SELECT THE CHANNELS FOR THE:
+                         (INTERMEDIATE STATE ---> FINAL STATE)
+               IT IS A FIVE-CHARACTER STRING OF 0/1 DIGITS THAT READS
+               AS: E1 E2 E3 M1 M2
+               0 MEANS CORRESPONDING MATRIX ELEMENTS NOT CONSIDERED
+               1 MEANS CORRESPONDING MATRIX ELEMENTS COMPUTED
+               EX. : 10000       ---> ONLY DIPOLE TERM E1 COMPUTED
+                     11000       ---> E1 + E2 COMPUTED
+               SINGLE (DOMINANT) CHANNEL CASE:
+                     +1>E1       ---> ONLY +1 CHANNEL OF E1
+                     -1>E3       ---> ONLY -1 CHANNEL OF E3
+               EXCEPTIONS:
+                     20000       ---> CORRECTION TERM FOR E1 ALSO TAKEN INTO ACCOUNT
+                     00000       ---> TEST CASE: NO MATRIX ELEMENTS COMPUTED
+
+
+            CARD N. 4 (NE,E_INI,E_FIN)
+                       FORMAT(7X,I3,6X,F7.2,3X,F7.2)
+
+    NE    = NUMBER OF ENERGY POINTS
+
+    E_INI = INITIAL VALUE OF THE PHOTON ENERGY (IN eV)
+
+    E_FIN = FINAL VALUE OF THE PHOTON ENERGY (IN eV)
+
+
+
+            CARD N. 5 (NPHI,PHI_FIN)
+                       FORMAT(7X,I3,6X,F7.2)
+
+    NPHI    = NUMBER OF PHI POINTS FOR AZIMUTHAL SCAN
+
+    PHI_FIN = FINAL VALUE FOR AZIMUTHAL SCAN (PHI_INI = 0)
+                       (IN DEGREES)
+
+
+
+
+
+    **************************************************************************
+    *                             PEELS PARAMETERS                           *
+    **************************************************************************
+
+             CARD N. 1 (N_PLA,I_BLK)
+                        FORMAT(9X,I1,9X,I1)
+
+    N_PLA  = NUMBER OF PLASMONS EXCITED (LIMITED TO 4)
+
+    I_BLK  = SWITCH FOR BULK/SURFACE PLASMON
+                (=0) SURFACE PLASMON
+                (=1) BULK PLASMON
+
+
+             CARD N. 2 (E_PLA(J_PLA))
+                       (8X,F5.2,5X,F5.2,5X,F5.2,5X,F5.2)
+
+    E_PLA  = ENERGY OF THE PLASMONS EXCITED (UP TO N_PLA) (IN eV)
+
+
+
+
+    **************************************************************************
+    *                   EIGENVALUE CALCULATION PARAMETERS                    *
+    **************************************************************************
+
+             CARD N. 1 (NE,EK_INI,EK_FIN,I_DAMP)
+                        FORMAT(7X,I3,6X,F7.2,3X,F7.2,6X,I1)
+
+    NE     = NUMBER OF ENERGY POINT
+
+    EK_INI = INITIAL VALUE OF THE KINETIC ENERGY (IN eV)
+
+    EK_FIN = FINAL VALUE OF THE KINETIC ENERGY (IN eV)
+
+    I_DAMP = SWITCH TO INCLUDE OR EXCLUDE THE VARIOUS DAMPINGS INTO THE
+             EIGENVALUE CALCULATION
+                (=0) NO DAMPING
+                (=1) ONLY VIBRATIONAL DAMPING (IDWSPH SHOULD BE SET TO 1)
+                (=2) ONLY MEAN FREE PATH DAMPING
+                (=3) BOTH DAMPINGS
+
+
+
+
+    **************************************************************************
+    *               CALCULATION PARAMETERS   : CLUSTER/TIP                   *
+    **************************************************************************
+
+             CARD N. 1  (NAT, A, UNIT)
+                        FORMAT(6X,I4,8X,F6.4,3X,A3)
+
+    NAT    = NUMBER OF PROTOTYPICAL ATOMS IN THE CLUSTER. ** WARNING  ** :
+               IT MUST BE SMALLER OR EQUAL TO THE VALUE OF NAT_M GIVEN IN THE
+               INCLUDE FILE, AND EQUAL TO THE VALUE GIVEN IN THE T-MATRIX FILE
+
+    A      = LATTICE PARAMETER.
+
+    UNIT   = UNIT IN WHICH IS EXPRESSED THE LATTICE PARAMETER A.
+                  UNIT CAN TAKE THE FOLLOWING VALUES :
+                       - ATU : ATOMIC UNITS
+                       - ANG : ANGSTROEMS
+
+
+             CARD N. 2   (NEMET,IEMET)
+                         FORMAT(8X,I2,3(8X,I2))
+
+    NEMET  = NUMBER OF NON EQUIVALENT ABSORBERS.  **  WARNING ** :
+               IT MUST BE SMALLER OR EQUAL TO THE VALUE OF NEMET_M GIVEN
+               IN THE INCLUDE FILE.
+               ** PHAGEN ONLY ** :
+               WHEN NEMET IS NEGATIVE, ITS ABSOLUTE VALUE IS TAKEN AS
+               THE TRUE VALUE AND THE PROGRAM WILL CONSIDER THE CLUSTER
+               GIVEN AS AN INPUT AS THE ONLY CLUSTER FOR THE CALCULATION.
+               CONSEQUENTLY, FOR EACH PLANE, IT WILL LOOK FOR AN ABSORBER
+               OF THE SAME CHEMICAL SPECIES AT THAT OF THE PHAGEN ABSORBER.
+
+    IEMET  = ATOM TYPE OF THE ABSORBERS
+
+             ( BOTH PARAMETERS SHOULD BE SET TO +/-1 IF USING AN EXTERNAL
+               CLUSTER GENERATED BY THE PROGRAM PHAGEN)
+
+
+             CARD N. 3 (ISOM,NONVOL,NPATH,VINT)
+                        FORMAT(9X,I1,8X,I2,6X,I4,8X,F6.2)
+
+    ISOM    = SWITCH USED WHEN 'NFICHLEC' IN THE COMMAND FILE IS GREATER
+              THAN 1. IN THIS CASE, THERE IS A LOOP PERFORMED ON THE INPUT
+              DATA FILES SUCH AS THE PRESENT ONE.
+                     (=0) THE VARIOUS INPUT DATA FILES CORRESPOND TO DIFFERENT
+                          CALCULATIONS.
+                     (=1) THE INPUT DATA FILES CORRESPOND TO ABSORBERS IN
+                          DIFFERENT PLANES THAT HAVE TO BE SUMMED UP IN ORDER
+                          TO GET THE TOTAL CONTRIBUTION.
+                     (=2) THE INPUT DATA FILES CORRESPOND TO DIFFERENT
+                          ABSORBERS IN THE SAME PLANE THAT HAVE TO BE SUMMED
+                          UP IN ORDER TO GET THE CONTRIBUTION FROM THIS PLANE.
+
+              *** WARNING *** : WHEN ISOM > 0, IT SHOULD BE PUT TO THE
+                                CORRESPONDING VALUE IN ALL INPUT DATA FILES
+
+    NONVOL  = IF ISOM=0 : NUMBER OF PLANES CONSIDERED AS SURFACE PLANES.
+              IF ISOM=1 : (=0) THE CORRESPONDING PLANE IS BULK LIKE
+                          (=1) THE PLANE IS A SURFACE PLANE
+              IF ISOM=2 : IGNORED
+
+    NPATH   = NUMBER OF THE MOST SIGNIFICANT PATHS LISTED IN THE PRINT-OUT.
+              (THIS LIST CAN BE USED TO MONITOR THE CONVERGENCE OF THE
+               MULTIPLE SCATTERING SERIES. INDEED, CONVERGENCE CANNOT BE
+               ACHIEVED
+               AS LONG AS AN INCREASE IN THE SCATTERING ORDER N_SCAT MAKES PATHS
+               OF THIS ORDER APPEAR IN THE LIST. NOTE HOWEVER THAT THE FACT THAT
+               NO MORE PATHS APPEAR MIGHT NOT BE SUFFICIENT TO ENSURE THE
+               CONVERGENCE). THE CALCULATION IS FASTER WHEN NPATH=0.
+
+    VINT    = AVERAGE INTERSTITIAL POTENTIAL IN EV
+
+
+              CARD N. 4  (IDWSPH, IATT, IPRINT)
+                          FORMAT(9X,I1,8X,I2,9X,I1)
+
+    IDWSPH  = SWITCH: (=0) USE OF PW DW FACTORS
+                      (=1) USE OF DW MODIFIED TL (ATOMIC T-MATRIX ELEMENTS)
+
+    IATT    = SWITCH: (=1) INTRODUCES AN ATTENUATION FACTOR FROM THE LAST
+                           SCATTERING ATOM TO THE SURFACE PLANE
+                      (=0) NO SUCH ATTENUATION
+
+    IPRINT  = SWITCH FOR CONTROLLING THE PRINTOUT LIST:
+                      (=0) MINIMUM OUTPUT
+                      (=1) NORMAL OUTPUT
+                      (=2) DETAILED ACCOUNT OF THE GENERATION OF THE ENTIRE
+                           CLUSTER
+                      (=3) NORMAL OUTPUT PLUS EXPLODED INFORMATION ON PATH
+                           CONTRIBUTION. ** WARNING ** : THE TOTAL NUMBER OF
+                           PATHS CAN BE VERY HIGH IF NOT SETTING EITHER IFWD
+                           OR IPW TO 1.
+
+
+              CARD N. 5  (IMSD, TD, T, RSJ)
+                          FORMAT(9X,I1,6X,F7.2,3X,F7.2,6X,F4.2)
+
+    IMSD    = SWITCH FOR CALCULATION OF THE ATOMIC MEAN SQUARE DISPLACEMENT
+              (MSD):(=0) NO CALCULATION (READ IN FROM THIS INPUT FILE-SEE
+              BELOW);
+                    (=1) MSD CALCULATED INTERNALLY
+
+    TD      = DEBYE TEMPERATURE IN KELVIN (USED IF IMSD = 1)
+
+    T       = SAMPLE TEMPERATURE IN KELVIN (USED IF IMSD = 1)
+
+    RSJ     = RATIO OF SURFACE TO VOLUME MSD
+
+
+              CARD N. 6  (ITEMP, NTEMP, TEMP0, TEMP1)
+                          FORMAT(8X,I2,6X,I4,6X,F7.2,3X,F7.2)
+
+    ITEMP   = SWITCH FOR TEMPERATURE LOOP:
+                      (=0) NO TEMPERATURE LOOP
+                      (=1) TEMPERATURE LOOP
+
+    NTEMP   = NUMBER OF TEMPERATURE POINTS
+
+    TEMP0   = INITIAL TEMPERATURE IN KELVIN
+
+    TEMP1   = FINAL TEMPERATURE IN KELVIN
+
+
+              CARD N. 6+NAT (UJ2(NAT))
+                         FORMAT(8X,F8.5,2X,F8.5,2X,F8.5,2X,F8.5)
+
+    UJ2     = EXTERNAL MSD FOR EACH PROTOTYPICAL ATOMS (ANGSTROEMS**2)
+                        (AS MANY LINES AS NECESSARY)
+
+
+
+    **************************************************************************
+    *     CALCULATION PARAMETERS   : INCOMING/EXCITED/OUTGOING ELECTRONS     *
+    **************************************************************************
+
+
+
+             CARD N. 1  (NO, N_SCAT, I_BASIS, ALGO)
+                        FORMAT(8X,I2,9X,I1,9X,I1,8X,A2)
+
+    NO     = ORDER OF TRUNCATION IN THE REHR-ALBERS EXPANSION IN THE
+             APPROXIMATION OF THE PROPAGATOR (UP TO ORDER 8)
+
+    N_SCAT   = (>0) ORDER OF TRUNCATION OF THE MULTIPLE SCATTERING SERIES
+             (=0) COMPLETE INVERSION OF THE MULTIPLE SCATTERING MATRIX
+
+    I_BASIS = SWITCH TO SELECT THE KIND OF BASIS USED:
+                     (=0) PLANE-WAVES
+                     (=1) SPHERICAL-WAVES
+                     (=2) IMPACT PARAMETER
+
+    ALGO  = SWITCH FOR THE CHOICE OF THE MS ALGORITHM:
+                    (= 'CE') CORRELATION EXPANSION
+                    (= 'MI') MATRIX INVERSION
+                    (= 'RE') RENORMALIZED SERIES EXPANSION
+                    (= 'SE') SERIES EXPANSION
+                    (= 'SM') MATRIX SERIES EXPANSION
+                    (= 'SY') SYMMETRIZED SERIES EXPANSION
+
+
+             CARD N. 2  (I_REN, N_REN, REN_R, REN_I)
+                        FORMAT(9X,I1,9X,I1,6X,F8.3,2X,F8.3)
+
+    I_REN = SWITCH FOR THE RENORMALIZATION APPROACH
+                     = 1 : renormalization in terms of G_n matrices (n : N_REN)
+                     = 2 : renormalization in terms of the Sigma_n matrices
+                     = 3 : renormalization in terms of the Z_n matrices
+                     = 4 : renormalization in terms of the Pi_1 matrix
+                     = 5 : Löwdin's type of renormalization
+
+    N_REN = renormalization power n
+
+    REN   = REN_R + i * REN_I : renormalization parameter omega
+
+
+             CARD N. 3 (ISFLIP, IR_DIA, ITRTL,I_TEST)
+                       FORMAT(9X,I1,9X,I1,9X,I1,9X,I1)
+
+    ISFLIP = SWITCH: (=0) NO SPIN-FLIP AUTHORISED
+                     (=1) SPIN-FLIP AUTHORISED
+
+    IR_DIA = SWITCH FOR THE RADIAL INTEGRALS IN THE SPIN_POLARISED CASE :
+             (=0) ALL FOUR RADIAL INTEGRALS (++,+-,-+,--) ARE TAKEN
+                      INTO ACCOUNT
+             (=1) OMLY THE DIAGONAL ONES (++,--), WHICH ARE GENERALLY
+                      MUCH LARGER, ARE KEPT
+
+    ITLTR  = SWITCH FOR THE NUMBER OF NON ZERO DIGITS ABOVE WICH
+               T-MATRIX ELEMENTS WILL BE CONSIDERED TO BE NULL. BY
+               DEFAULT, THESE ELEMENTS ARE READ WITH NINE DECIMAL DIGITS
+             (=1) ONLY TL VALUES >= +/- 0.1 WILL BE KEPT
+             (=2) ONLY TL VALUES >= +/- 0.01 WILL BE KEPT
+               .
+               .
+               .
+             (=9) ONLY TL VALUES >= +/- 0.000000001 WILL BE KEPT
+
+    I_TEST = SWITCH TO DESACTIVATE THE EFFECT OF THE INTERACTION MATRIX
+               ELEMENT (DIPOLAR OR COULOMB) OR THAT OF THE MULTIPLE
+               SCATTERING (ATOMIC CALCULATION). THEN, EITHER ONLY THE
+               MULTIPLE SCATTERING WILL CONTRIBUTE, OR THE EXCITED ATOM.
+               IN THE FIRST CASE, ONLY THE S TO P CHANNEL IS TAKEN INTO
+               ACCOUNT (I. E. FOR PHD : LI=0 AND FOR AUGER : LF=L_A WITH
+               L_C=L_I=0). FURTHERMORE, ALL INTERACTION MATRIX ELEMENTS
+               ARE SET TO 1.
+             (=0) NOT ACTIVATED. NORMAL CALCULATION
+             (=1) ACTIVATED ----> NO INITIAL STATE EFFECT
+             (=2) ACTIVATED ----> NO MULTIPLE SCATTERING
+
+
+
+              CARD N. 4  ( IFWD, NTHOUT, I_NO, I_RA)
+                          FORMAT(9X,I1,9X,I1,9X,I1,9X,I1)
+
+    IFWD    = SWITCH: (=1) FOR FORWARD SCATTERING APPROXIMATION;
+                      (=0) NO FORWARD SCATTERING APPROXIMATION.
+
+    NTHOUT  = NUMBER OF SCATTERING EVENTS ALLOWED OUTSIDE THE
+              SCATTERING CONE, EXCLUDING THE LAST ONE (NOTE THAT NTHFWD=N_SCAT-1
+              IS EQUIVALENT TO IFWD=0).
+
+    I_NO    = SWITCH: (=0) THE REHR-ALBERS TRUNCATION ORDER IS THE SAME
+                           FOR ALL SCATTERERS ALONG A PATH
+                      (>0) THIS TRUNCATION ORDER IS DECREASED BY ONE
+                           EVERY I_NO SCATTERER UNTIL THE VALUE 0. THEN
+                           ALL REMAINING ATOMS IN THE PATHS HAVE NO=0
+
+    I_RA    = SWITCH: (=0) THE REHR-ALBERS TRUNCATION ORDER IS THE SAME
+                           FOR ALL CHEMICAL SPECIES. THE 'NO' VALUE IN
+                           CARD N. 2 IS TAKEN INTO ACCOUNT
+                      (=1) IT IS CHEMICAL SPECIES DEPENDENT. THE VALUE
+                           OF 'NO' IN CARD N. 2 IS DISREGARDED. FOR EACH
+                           PROTOTYPICAL ATOM, THE VALUE OF 'NO' IS GIVEN
+                           AS 'N_RA' IN THE NEXT 'NAT' CARDS
+
+
+
+
+              CARD N. 5 -UP TO 3+NAT  (I_RA, THFWD, IBWD, THBWD)
+                           FORMAT(9X,I1,6X,F6.2,7X,I1,7X,F6.2)
+
+    N_RA    = REHR-ALBERS TRUNCATION ORDER FOR THE CORRESPONDING
+              PROTOTYPICAL ATOM. ONLY ACTIVE IF 'I_RA'=1. OTHERWISE
+              'NO' TAKEN INTO ACCOUNT FOR EACH ATOM
+
+    THFWD   = HALF THE ANGLE OF THE FORWARD SCATTERING CONE (DEGREES)
+              KNOWN AFTER RUNNING THE PROGRAM WITH THE OPTION IFTHET = 1.
+
+    IBWD    = SWITCH: (=1) FOR BACKWARD SCATTERING APPROXIMATION;
+                      (=0) NO BACKWARD SCATTERING APPROXIMATION.
+              EFFECTIVE ONLY IF IFWD=1.
+
+    THBWD   = HALF THE ANGLE OF THE BACKWARD SCATTERING CONE (DEGREES)
+              KNOWN AFTER RUNNING THE PROGRAM WITH THE OPTION IFTHET = 1.
+
+              **  WARNING  ** : THERE IS ONE CARD PER PROTOTYPICAL ATOM
+
+
+
+
+              CARD N. 5+NAT  (IPW, NCUT, PCTINT, IPP)
+                          FORMAT(9X,I1,9X,I1,7X,F8.4,4X,I1)
+
+    IPW     = SWITCH: (=1) FOR PATH REJECTION BY COMPARISON WITH THE
+              INTENSITY OF THE SCATTERING AMPLITUDE IN PW APPROXIMATION
+              AT THE ORDER NCUT (SEE BELOW).
+                      (=0) NO PATH FILTERING
+
+    NCUT    = ORDER OF SCATTERING EVENT AFTER WHICH PATH REJECTION
+              MECHANISM TAKES PLACE
+
+    PCTINT  = REDUCTION (EXPANSION) FACTOR FOR THE MAXIMUM SCATTERING
+              AMPLITUDE USED AS A REFERENCE VALUE FOR PATH REJECTION
+              (VARIES BETWEEN 0.0001 AND 999.9999)
+
+    IPP    = SWITCH TO SELECT THE SPIN-DEPENDENT SCATTERING FACTORS USED
+                              IN THIS FILTER :
+              (=1) THE LARGEST OF THE (++) AND (--) SCATTERING FACTORS
+                   IS USED FOR EACH SCATTERER TO COMPUTE THE PLANE WAVE
+                   AMPLITUDE OF EACH PATH.
+              (=2) M-AVERAGED AND SPIN-AVERAGED T MATRIX ELEMENTS ARE
+                   USED TO COMPUTE SORT OF A SPIN-INDEPENDENT SCATTERING
+                   FACTOR FOR EACH SCATTERER.
+
+
+
+              CARD N. 6+NAT  (ILENGTH,RLENGTH,UNLENGTH)
+                           FORMAT(9X,I1,7X,F6.2,4X,A3)
+
+    ILENGTH = SWITCH: (=0) NO CUT-OFF ON THE LENGTH OF THE PATHS
+                      (=1) CUT-OFF ON THE LENGTH OF THE PATHS
+
+    RLENGTH = VALUE OF THE CUT-OFF ON THE LENGTH OF THE PATHS
+
+    UNLENGTH= UNIT IN WHICH THIS CUT-OFF IS EXPRESSED :
+                       - ATU : ATOMIC UNITS
+                       - ANG : ANGSTROEMS
+                       - LPU : LATTICE PARAMETER UNITS
+
+
+
+              CARD N. 7+NAT (IMFP,XMFP0)
+                         FORMAT(9X,I1,7X,F6.2)
+
+    IMFP    = SWITCH: (=0) MEAN FREE PATH (MFP) READ IN AS XMFP0 (SEE BELOW)
+                      (=1) MFP CALCULATED FOR MONOELEMENTAL CLUSTER
+                      (=2) MFP CALCULATED ACCORDING TO SEAH AND DENCH
+
+    XMFP0   = EXTERNAL MFP (ANGSTROEMS)
+
+
+
+    **************************************************************************
+    *                  CALCULATION PARAMETERS   : PLASMONS                   *
+    **************************************************************************
+
+
+
+             CARD N. 1  (I_ANL,V_FL,WF_C,DISP)
+                         FORMAT(9X,I1,8X,A2,7X,A3,7X,A3)
+
+     I_ANL  = SWITCH TO SELECT THE KIND OF CALCULATION
+               (=0) SCREENED COULOMB INTERACTION W READ EXTERNALLY
+               (=1) ANALYTICAL CALCULATION: SCREENING POTENTIAL COMPUTED INTERNALLY
+
+     V_FL   = TYPE OF FLUCTUATION POTENTIAL CALCULATED INTERNALLY :
+                       - PP  : PLASMON POLE
+                       - CL  : CHASTENET-LONGE
+                       - IM  : INGLESFIELD MODEL
+                       - BM  : BECHSTEDT MODEL
+
+     WF_C   = TYPE OF CORE STATE USED FOR INTRINSIC PLASMON DESCRIPTION
+                       - NUM : EXTERNAL NUMERICAL FILE (FROM PHAGEN_SCF.F)
+                       - DIR : DIRAC DELTA FUNCTION
+                       - STO : SLATER-TYPE ORBITAL
+                       - GTO : GAUSSIAN-TYPE ORBITAL
+
+     DISP   = TYPE OF DISPERSION LAW FOR PLASMONS
+                       - RPA : RPA MODEL
+                       - HYD : HYDRODYNAMIC MODEL
+                       - OPT : OPTICAL PLASMON LAW
+                       - ACO : ACOUSTIC PLASMON LAW
+
+
+
+
+
+
+
+
+  *****************************************************************************
+
+    NOTE THAT THE NAME OF THE INPUT/OUTPUT FILES IS LIMITED TO 24 CHARACTERS
+    AND ARE DELIMITED BY TABS (+). THE NAME OF THE INPUT DATA FILE (UNIT 5
+    HERE) IS GIVEN AS A REMINDER AS THE CONNECTION BETWEEN ITS NAME AND THE
+    UNIT NUMBER OF THE FORTRAN FILE HAS TO BE DONE IN THE COMMAND FILE.
+
+  ################################  WARNINGS  #################################
+  #                                                                           #
+  #                                                                           #
+  #    ALWAYS MAKE SURE THAT NAT,NE,NEMET AND LI ARE CONSISTENT WITH THE      #
+  #                                                                           #
+  #    CORRESPONDING VALUES IN THE INCLUDE FILE WHICH ARE USED FOR THE        #
+  #                                                                           #
+  #    DIMENSIONING OF THE CODE. CHECK AS WELL THAT NL IS GREATER OR EQUAL    #
+  #                                                                           #
+  #    TO THE NUMBER OF PHASE SHIFTS OR T-MATRIX ELEMENTS USED BY THE CODE.   #
+  #                                                                           #
+  #                                                                           #
+  #############################################################################
+
+

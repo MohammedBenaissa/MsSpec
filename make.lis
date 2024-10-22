@@ -1,0 +1,319 @@
+updating source tree...
+sending incremental file list
+symmetrization.f90
+
+sent 123,298 bytes  received 35 bytes  246,666.00 bytes/sec
+total size is 1,552,497  speedup is 12.59
+Compiling build/symmetrization.o...
+build/symmetrization.f90:157:48:
+
+                            / ONE,ZERO,ZERO,ZERO,-ONE,ZERO,ZERO,ZERO,-ONE/    !
+                                                1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:160:28:
+
+                            /-ONE,ZERO,ZERO,ZERO, ONE,ZERO,ZERO,ZERO,-ONE/    !
+                            1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:163:28:
+
+                            /-ONE,ZERO,ZERO,ZERO,-ONE,ZERO,ZERO,ZERO, ONE/    !
+                            1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:169:33:
+
+                            /ZERO,-ONE,ZERO,ZERO,ZERO, ONE,-ONE,ZERO,ZERO/    !
+                                 1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:172:38:
+
+                            /ZERO,ZERO,-ONE, ONE,ZERO,ZERO,ZERO,-ONE,ZERO/    !
+                                      1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:175:33:
+
+                            /ZERO,-ONE,ZERO,ZERO,ZERO,-ONE, ONE,ZERO,ZERO/    !
+                                 1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:181:38:
+
+                            /ZERO,ZERO,-ONE,-ONE,ZERO,ZERO,ZERO, ONE,ZERO/    !
+                                      1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:184:53:
+
+                            /ZERO, ONE,ZERO,ZERO,ZERO,-ONE,-ONE,ZERO,ZERO/    !
+                                                     1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:187:43:
+
+                            /ZERO,ZERO, ONE,-ONE,ZERO,ZERO,ZERO,-ONE,ZERO/    !
+                                           1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:190:53:
+
+                            / ONE,ZERO,ZERO,ZERO,ZERO,-ONE,ZERO, ONE,ZERO/    !
+                                                     1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:193:58:
+
+                            /ZERO,ZERO, ONE,ZERO, ONE,ZERO,-ONE,ZERO,ZERO/    !
+                                                          1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:196:33:
+
+                            /ZERO,-ONE,ZERO, ONE,ZERO,ZERO,ZERO,ZERO, ONE/    !
+                                 1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:199:63:
+
+                            / ONE,ZERO,ZERO,ZERO,ZERO, ONE,ZERO,-ONE,ZERO/    !
+                                                               1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:202:38:
+
+                            /ZERO,ZERO,-ONE,ZERO, ONE,ZERO, ONE,ZERO,ZERO/    !
+                                      1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:205:43:
+
+                            /ZERO, ONE,ZERO,-ONE,ZERO,ZERO,ZERO,ZERO, ONE/    !
+                                           1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:208:68:
+
+                            /ZERO, ONE,ZERO, ONE,ZERO,ZERO,ZERO,ZERO,-ONE/    !
+                                                                    1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:211:33:
+
+                            /ZERO,-ONE,ZERO,-ONE,ZERO,ZERO,ZERO,ZERO,-ONE/    !
+                                 1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:214:48:
+
+                            /ZERO,ZERO, ONE,ZERO,-ONE,ZERO, ONE,ZERO,ZERO/    !
+                                                1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:217:38:
+
+                            /ZERO,ZERO,-ONE,ZERO,-ONE,ZERO,-ONE,ZERO,ZERO/    !
+                                      1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:220:28:
+
+                            /-ONE,ZERO,ZERO,ZERO,ZERO,-ONE,ZERO,-ONE,ZERO/    !
+                            1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:223:28:
+
+                            /-ONE,ZERO,ZERO,ZERO,ZERO, ONE,ZERO, ONE,ZERO/    !
+                            1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:228:18:
+
+                  /-HALF,-SQ3O2,ZERO, SQ3O2,-HALF,ZERO,ZERO,ZERO, ONE/        !
+                  1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:231:18:
+
+                  /-HALF, SQ3O2,ZERO,-SQ3O2,-HALF,ZERO,ZERO,ZERO, ONE/        !
+                  1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:234:24:
+
+                  / HALF,-SQ3O2,ZERO, SQ3O2, HALF,ZERO,ZERO,ZERO, ONE/        !
+                        1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:237:36:
+
+                  / HALF, SQ3O2,ZERO,-SQ3O2, HALF,ZERO,ZERO,ZERO, ONE/        !
+                                    1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:240:18:
+
+                  /-HALF,-SQ3O2,ZERO,-SQ3O2, HALF,ZERO,ZERO,ZERO,-ONE/        !
+                  1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:243:18:
+
+                  /-HALF, SQ3O2,ZERO, SQ3O2, HALF,ZERO,ZERO,ZERO,-ONE/        !
+                  1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:246:24:
+
+                  / HALF,-SQ3O2,ZERO,-SQ3O2,-HALF,ZERO,ZERO,ZERO,-ONE/        !
+                        1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:249:43:
+
+                  / HALF, SQ3O2,ZERO, SQ3O2,-HALF,ZERO,ZERO,ZERO,-ONE/        !
+                                           1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:254:28:
+
+                            /-ONE,ZERO,ZERO,ZERO,-ONE,ZERO,ZERO,ZERO,-ONE/    !
+                            1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:257:28:
+
+                            /-ONE,ZERO,ZERO,ZERO, ONE,ZERO,ZERO,ZERO, ONE/    !
+                            1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:260:48:
+
+                            / ONE,ZERO,ZERO,ZERO,-ONE,ZERO,ZERO,ZERO, ONE/    !
+                                                1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:263:68:
+
+                            / ONE,ZERO,ZERO,ZERO, ONE,ZERO,ZERO,ZERO,-ONE/    !
+                                                                    1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:266:38:
+
+                            /ZERO,ZERO,-ONE,-ONE,ZERO,ZERO,ZERO,-ONE,ZERO/    !
+                                      1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:269:53:
+
+                            /ZERO, ONE,ZERO,ZERO,ZERO,-ONE, ONE,ZERO,ZERO/    !
+                                                     1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:272:43:
+
+                            /ZERO,ZERO, ONE,-ONE,ZERO,ZERO,ZERO, ONE,ZERO/    !
+                                           1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:275:58:
+
+                            /ZERO, ONE,ZERO,ZERO,ZERO, ONE,-ONE,ZERO,ZERO/    !
+                                                          1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:278:33:
+
+                            /ZERO,-ONE,ZERO,ZERO,ZERO,-ONE,-ONE,ZERO,ZERO/    !
+                                 1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:281:63:
+
+                            /ZERO,ZERO, ONE, ONE,ZERO,ZERO,ZERO,-ONE,ZERO/    !
+                                                               1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:284:33:
+
+                            /ZERO,-ONE,ZERO,ZERO,ZERO, ONE, ONE,ZERO,ZERO/    !
+                                 1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:287:38:
+
+                            /ZERO,ZERO,-ONE, ONE,ZERO,ZERO,ZERO, ONE,ZERO/    !
+                                      1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:290:28:
+
+                            /-ONE,ZERO,ZERO,ZERO,ZERO, ONE,ZERO,-ONE,ZERO/    !
+                            1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:293:38:
+
+                            /ZERO,ZERO,-ONE,ZERO,-ONE,ZERO, ONE,ZERO,ZERO/    !
+                                      1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:296:43:
+
+                            /ZERO, ONE,ZERO,-ONE,ZERO,ZERO,ZERO,ZERO,-ONE/    !
+                                           1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:299:28:
+
+                            /-ONE,ZERO,ZERO,ZERO,ZERO,-ONE,ZERO, ONE,ZERO/    !
+                            1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:302:48:
+
+                            /ZERO,ZERO, ONE,ZERO,-ONE,ZERO,-ONE,ZERO,ZERO/    !
+                                                1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:305:33:
+
+                            /ZERO,-ONE,ZERO, ONE,ZERO,ZERO,ZERO,ZERO,-ONE/    !
+                                 1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:308:33:
+
+                            /ZERO,-ONE,ZERO,-ONE,ZERO,ZERO,ZERO,ZERO, ONE/    !
+                                 1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:314:38:
+
+                            /ZERO,ZERO,-ONE,ZERO, ONE,ZERO,-ONE,ZERO,ZERO/    !
+                                      1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:323:53:
+
+                            / ONE,ZERO,ZERO,ZERO,ZERO,-ONE,ZERO,-ONE,ZERO/    !
+                                                     1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:328:36:
+
+                  / HALF, SQ3O2,ZERO,-SQ3O2, HALF,ZERO,ZERO,ZERO,-ONE/        !
+                                    1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:330:24:
+
+                  / HALF,-SQ3O2,ZERO, SQ3O2, HALF,ZERO,ZERO,ZERO,-ONE/        !
+                        1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:332:18:
+
+                  /-HALF, SQ3O2,ZERO,-SQ3O2,-HALF,ZERO,ZERO,ZERO,-ONE/        !
+                  1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:334:18:
+
+                  /-HALF,-SQ3O2,ZERO, SQ3O2,-HALF,ZERO,ZERO,ZERO,-ONE/        !
+                  1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:336:43:
+
+                  / HALF, SQ3O2,ZERO, SQ3O2,-HALF,ZERO,ZERO,ZERO, ONE/        !
+                                           1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:338:24:
+
+                  / HALF,-SQ3O2,ZERO,-SQ3O2,-HALF,ZERO,ZERO,ZERO, ONE/        !
+                        1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:340:18:
+
+                  /-HALF, SQ3O2,ZERO, SQ3O2, HALF,ZERO,ZERO,ZERO, ONE/        !
+                  1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:342:18:
+
+                  /-HALF,-SQ3O2,ZERO,-SQ3O2, HALF,ZERO,ZERO,ZERO, ONE/        !
+                  1
+Error: Syntax error in DATA statement at (1)
+build/symmetrization.f90:350:10:
+
+       DATA IZ / 1,-1,-1, 1, 0, 0, 0, 0, 0, 0, 0, 0 ,0, 0, 1, 0,       &
+          1
+Error: Cannot change attributes of USE-associated symbol iz at (1)
+build/symmetrization.f90:358:10:
+
+       DATA ZL / ONE,-ONE,-ONE, ONE, ONE, ONE, ONE, ONE, ONE, ONE,     &
+          1
+Error: Cannot change attributes of USE-associated symbol zl at (1)
+build/symmetrization.f90:366:10:
+
+       DATA ZM1 /ONEC,ONEC,ONEC_,ONEC_,ONEC,IC_,ONEC_,IC,IC_,          &
+          1
+Error: Cannot change attributes of USE-associated symbol zm1 at (1)
+build/symmetrization.f90:373:10:
+
+       DATA ZM2 /ONEC,ONEC,ONEC,ONEC,IC_,ONEC,IC,ONEC_,ONEC_,          &
+          1
+Error: Cannot change attributes of USE-associated symbol zm2 at (1)
+Makefile:138: recipe for target 'build/symmetrization.o' failed
+make: *** [build/symmetrization.o] Error 1
